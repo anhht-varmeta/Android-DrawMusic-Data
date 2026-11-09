@@ -33,3 +33,9 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Beat pack build output (source of truth = generator + pack tags) and Python venv
+out/
+.venv/
+__pycache__/
+.DS_Store

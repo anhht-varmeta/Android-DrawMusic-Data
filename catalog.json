@@ -1,0 +1,347 @@
+{
+ "schema": 1,
+ "version": "1.0.0",
+ "defaultPackId": "pop_sunrise",
+ "packs": [
+  {
+   "id": "pop_sunrise",
+   "version": "1.0.0",
+   "name": "Pop Sunrise",
+   "genre": "Pop",
+   "bpm": 118.0,
+   "key": "C",
+   "isPremium": false,
+   "description": "Bright, upbeat pop grooves with sunny keys and plucks.",
+   "cover": "packs/pop_sunrise/cover.webp",
+   "preview": "packs/pop_sunrise/preview.ogg",
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@333ef9d267a41e066368d6a03cde9295bf412498/pop_sunrise.zip",
+    "size": 3534179,
+    "sha256": "b9275cb89a5a9d80fc930fc0019715ef7c1daf5a83e9ba2a9d2ff0460f68effe"
+   }
+  },
+  {
+   "id": "hiphop_boom",
+   "version": "1.0.0",
+   "name": "Boom Street",
+   "genre": "Hip Hop",
+   "bpm": 90.0,
+   "key": "Am",
+   "isPremium": false,
+   "description": "Dusty boom-bap drums, round bass and moody keys.",
+   "cover": "packs/hiphop_boom/cover.webp",
+   "preview": "packs/hiphop_boom/preview.ogg",
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@685caa8d438a399bc47a837056856022efad5b08/hiphop_boom.zip",
+    "size": 3978471,
+    "sha256": "93d2315dbce02d23bd1063fa45ce69936088b699726ed41769d20366e58e0fad"
+   }
+  },
+  {
+   "id": "edm_voltage",
+   "version": "1.0.0",
+   "name": "Voltage",
+   "genre": "EDM",
+   "bpm": 126.0,
+   "key": "Fm",
+   "isPremium": false,
+   "description": "Festival energy: four-on-the-floor, supersaw stabs and risers.",
+   "cover": "packs/edm_voltage/cover.webp",
+   "preview": "packs/edm_voltage/preview.ogg",
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@cbb363c2baf5bec49e6a656c7e49fa085c3ff9dc/edm_voltage.zip",
+    "size": 3591440,
+    "sha256": "2a65fddab4bcd7033f85b88bd1d1af36ad64845cb9ca2b0452e02be0f97952fd"
+   }
+  },
+  {
+   "id": "lofi_rain",
+   "version": "1.0.0",
+   "name": "Rainy Tape",
+   "genre": "Lo-fi",
+   "bpm": 80.0,
+   "key": "Dm",
+   "isPremium": false,
+   "description": "Warm tape chords, lazy swing and vinyl crackle.",
+   "cover": "packs/lofi_rain/cover.webp",
+   "preview": "packs/lofi_rain/preview.ogg",
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@6c36a5736980fe1e761d9a695d202ee4c8230295/lofi_rain.zip",
+    "size": 4837346,
+    "sha256": "8295b5d34b4866c6888f2e842b807f45eaf15e952d922dfd6cb1190553ae216a"
+   }
+  },
+  {
+   "id": "trap_night",
+   "version": "1.0.0",
+   "name": "Night Trap",
+   "genre": "Trap",
+   "bpm": 140.0,
+   "key": "Gm",
+   "isPremium": false,
+   "description": "Hard 808s, rolling hats and dark bells.",
+   "cover": "packs/trap_night/cover.webp",
+   "preview": "packs/trap_night/preview.ogg",
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@419c96e885735c8aba06ed86720f54e06bd24a79/trap_night.zip",
+    "size": 3033867,
+    "sha256": "63464ee41c476ba0aac9b14fd166361809d8bb90f10805e5bdb1a941e18c3cb5"
+   }
+  },
+  {
+   "id": "house_deep",
+   "version": "1.0.0",
+   "name": "Deep House",
+   "genre": "House",
+   "bpm": 122.0,
+   "key": "Am",
+   "isPremium": false,
+   "description": "Late-night house: deep bass, organ stabs and shakers.",
+   "cover": "packs/house_deep/cover.webp",
+   "preview": "packs/house_deep/preview.ogg",
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3cdfcb2efa19114a8a7a540358842e71d3e0ae67/house_deep.zip",
+    "size": 3521421,
+    "sha256": "583c1996a4a6817dc7ed4c200a94809e2b87c43324436be8edaa1bf9c254f9fa"
+   }
+  },
+  {
+   "id": "drill_shadow",
+   "version": "1.1.0",
+   "name": "Shadow Drill",
+   "genre": "Drill",
+   "bpm": 142.0,
+   "key": "F#m",
+   "isPremium": false,
+   "description": "Sliding 808s, skippy hats and cold drill bells.",
+   "cover": "packs/drill_shadow/cover.webp",
+   "preview": "packs/drill_shadow/preview.ogg",
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@5b80c6cade75575d0285655304e34cc5dc465b72/drill_shadow.zip",
+    "size": 2987614,
+    "sha256": "90f0df6be594ea045ebdf4f19d337ad8b57068de60bedf69bc229c0e212e739d"
+   }
+  },
+  {
+   "id": "dnb_liquid",
+   "version": "1.1.0",
+   "name": "Liquid Run",
+   "genre": "Drum & Bass",
+   "bpm": 174.0,
+   "key": "Em",
+   "isPremium": false,
+   "description": "Rolling breaks, deep subs and liquid pads.",
+   "cover": "packs/dnb_liquid/cover.webp",
+   "preview": "packs/dnb_liquid/preview.ogg",
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@55156bd66b6ad007f981ca4c7001320a8164cb5d/dnb_liquid.zip",
+    "size": 2789021,
+    "sha256": "7e1bf5855c3aa38f8638c4380a064613c0f29c717df1125f69e7f29af664941c"
+   }
+  },
+  {
+   "id": "reggaeton_calor",
+   "version": "1.1.0",
+   "name": "Calor",
+   "genre": "Reggaeton",
+   "bpm": 95.0,
+   "key": "Bbm",
+   "isPremium": false,
+   "description": "Dembow rhythm, punchy kicks and tropical plucks.",
+   "cover": "packs/reggaeton_calor/cover.webp",
+   "preview": "packs/reggaeton_calor/preview.ogg",
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@d1cf9274a626a2cc4af0e67375feba5066ee4541/reggaeton_calor.zip",
+    "size": 4283947,
+    "sha256": "92264ec58fb6a20214d1f01185d7a186db5a687c58c17a9c1c83e6143ccae926"
+   }
+  },
+  {
+   "id": "afro_lagos",
+   "version": "1.1.0",
+   "name": "Lagos Sun",
+   "genre": "Afrobeats",
+   "bpm": 104.0,
+   "key": "G",
+   "isPremium": false,
+   "description": "Bouncy afro percussion, log-drum bass and bright guitars.",
+   "cover": "packs/afro_lagos/cover.webp",
+   "preview": "packs/afro_lagos/preview.ogg",
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@02fabceeb2850f85e18f70fcba93e655c568ad22/afro_lagos.zip",
+    "size": 3650249,
+    "sha256": "37ad7c8f1b555f612f9cb5af3c74aa5ea968e240121a2e5ee35ce5fb6055d2e7"
+   }
+  },
+  {
+   "id": "synthwave_neon",
+   "version": "1.1.0",
+   "name": "Neon Drive",
+   "genre": "Synthwave",
+   "bpm": 100.0,
+   "key": "Am",
+   "isPremium": false,
+   "description": "Retro 80s drive: gated drums, arps and lush pads.",
+   "cover": "packs/synthwave_neon/cover.webp",
+   "preview": "packs/synthwave_neon/preview.ogg",
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@c1d07016935b41e4bdea29fff99954db47abb9cf/synthwave_neon.zip",
+    "size": 4335847,
+    "sha256": "1fc73e3447dfce255553b6b2104decd76a2d59bcce5ba35837eb189b5b6dad22"
+   }
+  },
+  {
+   "id": "future_prism",
+   "version": "1.1.0",
+   "name": "Prism",
+   "genre": "Future Bass",
+   "bpm": 150.0,
+   "key": "D",
+   "isPremium": false,
+   "description": "Wobbly supersaw chords, vocal chops and big drops.",
+   "cover": "packs/future_prism/cover.webp",
+   "preview": "packs/future_prism/preview.ogg",
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@47ae5088d9ddbe649512a8a68ac59c1d5e711449/future_prism.zip",
+    "size": 3083305,
+    "sha256": "f83b1faec6a3454f8f13e5b0a9f31f111e63abd42262be225c05943e5fe3c7ac"
+   }
+  },
+  {
+   "id": "techno_warehouse",
+   "version": "1.1.0",
+   "name": "Warehouse",
+   "genre": "Techno",
+   "bpm": 130.0,
+   "key": "Cm",
+   "isPremium": false,
+   "description": "Driving warehouse techno: rumbling kicks and acid lines.",
+   "cover": "packs/techno_warehouse/cover.webp",
+   "preview": "packs/techno_warehouse/preview.ogg",
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@2a0f839cec42e611044d7e0998a58a08a2874b93/techno_warehouse.zip",
+    "size": 3263824,
+    "sha256": "3c11e4b3b90ff259ea4dc0d4a3375331a521272fbd11fba1e8ff68e0d92ee317"
+   }
+  },
+  {
+   "id": "rnb_velvet",
+   "version": "1.1.0",
+   "name": "Velvet Night",
+   "genre": "R&B",
+   "bpm": 75.0,
+   "key": "Ebm",
+   "isPremium": false,
+   "description": "Smooth slow jams with silky keys and round bass.",
+   "cover": "packs/rnb_velvet/cover.webp",
+   "preview": "packs/rnb_velvet/preview.ogg",
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@5ad233034b270c2704026f4a0a6772019e4810c9/rnb_velvet.zip",
+    "size": 4569990,
+    "sha256": "ddaa9a5ba0809551c77cb8e3a26125e3d619dc48e505c3de2841470b18e4bd3b"
+   }
+  },
+  {
+   "id": "dubstep_core",
+   "version": "1.1.0",
+   "name": "Wobble Core",
+   "genre": "Dubstep",
+   "bpm": 140.0,
+   "key": "Em",
+   "isPremium": false,
+   "description": "Half-time heavy drums, growling bass and dark stabs.",
+   "cover": "packs/dubstep_core/cover.webp",
+   "preview": "packs/dubstep_core/preview.ogg",
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@a7037536db958b2e141cc05c13b6c633284b6dd8/dubstep_core.zip",
+    "size": 3196285,
+    "sha256": "552181948c9b4ce25aba5391ab4d3859231c006f8e04a8f28e83ed48795863c2"
+   }
+  },
+  {
+   "id": "disco_groove",
+   "version": "1.1.0",
+   "name": "Disco Groove",
+   "genre": "Disco",
+   "bpm": 120.0,
+   "key": "F",
+   "isPremium": false,
+   "description": "Funky disco: octave bass, string stabs and open hats.",
+   "cover": "packs/disco_groove/cover.webp",
+   "preview": "packs/disco_groove/preview.ogg",
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@83bd1d0006e3c261d3b1f526d9a159d7783f319b/disco_groove.zip",
+    "size": 3553100,
+    "sha256": "fa4144008639048b5559799ecfd9a9ec5d235829560ab41c45526d6e1adc86fa"
+   }
+  },
+  {
+   "id": "chill_ocean",
+   "version": "1.1.0",
+   "name": "Ocean Drift",
+   "genre": "Chill",
+   "bpm": 95.0,
+   "key": "F",
+   "isPremium": false,
+   "description": "Laid-back chill beats with airy pads and soft plucks.",
+   "cover": "packs/chill_ocean/cover.webp",
+   "preview": "packs/chill_ocean/preview.ogg",
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@437ff3ad1f61ef1eff71a982051b198d4ee53cc9/chill_ocean.zip",
+    "size": 4098906,
+    "sha256": "d077597a93500d439ce5c53f10de39d36c4a351efd08eb1d8fab84d072281b4b"
+   }
+  },
+  {
+   "id": "phonk_drift",
+   "version": "1.1.0",
+   "name": "Phonk Drift",
+   "genre": "Phonk",
+   "bpm": 130.0,
+   "key": "C#m",
+   "isPremium": false,
+   "description": "Drift phonk: distorted 808s, cowbells and tape grit.",
+   "cover": "packs/phonk_drift/cover.webp",
+   "preview": "packs/phonk_drift/preview.ogg",
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@d94b8bf7e869a1899749a720338d465dc430689a/phonk_drift.zip",
+    "size": 3047655,
+    "sha256": "34b046ccc69eb607753cf9738fe116567b82b4f80a0e098778777e7672696ed5"
+   }
+  },
+  {
+   "id": "jazzhop_cafe",
+   "version": "1.1.0",
+   "name": "Coffee Jazz",
+   "genre": "Jazz Hop",
+   "bpm": 86.0,
+   "key": "Bb",
+   "isPremium": false,
+   "description": "Swinging jazz chords, upright-style bass and dusty drums.",
+   "cover": "packs/jazzhop_cafe/cover.webp",
+   "preview": "packs/jazzhop_cafe/preview.ogg",
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3327c7036b95ae8ea12501761bd562d56b115582/jazzhop_cafe.zip",
+    "size": 4415695,
+    "sha256": "9fa69f3337bfefb16053afcdd58f3ead7efd3cb0e05a8c076b42636e038702db"
+   }
+  },
+  {
+   "id": "kpop_starlight",
+   "version": "1.1.0",
+   "name": "Starlight",
+   "genre": "K-Pop",
+   "bpm": 128.0,
+   "key": "E",
+   "isPremium": false,
+   "description": "Glossy idol-pop energy: tight drums and sparkling synths.",
+   "cover": "packs/kpop_starlight/cover.webp",
+   "preview": "packs/kpop_starlight/preview.ogg",
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@d905ecce25a37ff02b24b4f204761b4c4d97eba1/kpop_starlight.zip",
+    "size": 3358002,
+    "sha256": "3393023667d33c7eaf56683e69945b5865c549434977dfd656dc49ce4342968c"
+   }
+  }
+ ]
+}
