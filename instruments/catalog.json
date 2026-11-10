@@ -1,0 +1,4423 @@
+{
+ "schema": 1,
+ "version": "1.0.0",
+ "source": "GeneralUser GS 2.0.3",
+ "groups": [
+  {
+   "id": "piano",
+   "name": "Piano",
+   "order": 0
+  },
+  {
+   "id": "chromatic",
+   "name": "Chromatic Percussion",
+   "order": 1
+  },
+  {
+   "id": "organ",
+   "name": "Organ",
+   "order": 2
+  },
+  {
+   "id": "guitar",
+   "name": "Guitar",
+   "order": 3
+  },
+  {
+   "id": "bass",
+   "name": "Bass",
+   "order": 4
+  },
+  {
+   "id": "strings",
+   "name": "Strings",
+   "order": 5
+  },
+  {
+   "id": "ensemble",
+   "name": "Ensemble",
+   "order": 6
+  },
+  {
+   "id": "brass",
+   "name": "Brass",
+   "order": 7
+  },
+  {
+   "id": "reed",
+   "name": "Reed",
+   "order": 8
+  },
+  {
+   "id": "pipe",
+   "name": "Pipe",
+   "order": 9
+  },
+  {
+   "id": "synth_lead",
+   "name": "Synth Lead",
+   "order": 10
+  },
+  {
+   "id": "synth_pad",
+   "name": "Synth Pad",
+   "order": 11
+  },
+  {
+   "id": "synth_fx",
+   "name": "Synth Effects",
+   "order": 12
+  },
+  {
+   "id": "ethnic",
+   "name": "Ethnic",
+   "order": 13
+  },
+  {
+   "id": "percussive",
+   "name": "Percussive",
+   "order": 14
+  },
+  {
+   "id": "sound_fx",
+   "name": "Sound Effects",
+   "order": 15
+  },
+  {
+   "id": "drums",
+   "name": "Drum Kits",
+   "order": 16
+  }
+ ],
+ "instruments": [
+  {
+   "id": "gm:0:0",
+   "name": "Grand Piano",
+   "group": "piano",
+   "bank": 0,
+   "program": 0,
+   "color": "#D1735E",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_0.zip",
+    "size": 2085862,
+    "sha256": "d3d392e8814d2dd8b26ce464353c79f75a5f8762f05a03381459c9feb0b04143"
+   }
+  },
+  {
+   "id": "gm:11:0",
+   "name": "Piano & Str.-Fade",
+   "group": "piano",
+   "bank": 11,
+   "program": 0,
+   "color": "#D15D43",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/11_0.zip",
+    "size": 4473743,
+    "sha256": "9e85730a083a9b02f575939de2ee082e10832cbed93892fe2ed1898a74146489"
+   }
+  },
+  {
+   "id": "gm:12:0",
+   "name": "Bell Piano",
+   "group": "piano",
+   "bank": 12,
+   "program": 0,
+   "color": "#D18473",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/12_0.zip",
+    "size": 2401137,
+    "sha256": "20fbbdcd569fc638958d70ed3564676426304288d6c43b8aa0fcb50372b59d71"
+   }
+  },
+  {
+   "id": "gm:0:1",
+   "name": "Bright Grand Piano",
+   "group": "piano",
+   "bank": 0,
+   "program": 1,
+   "color": "#D1674F",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_1.zip",
+    "size": 2085828,
+    "sha256": "647f8903ca0963ea5055d0c076131e883765edea6679ae2cabded5786fd5ea24"
+   }
+  },
+  {
+   "id": "gm:11:1",
+   "name": "Piano & Str.-Sus",
+   "group": "piano",
+   "bank": 11,
+   "program": 1,
+   "color": "#B26250",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/11_1.zip",
+    "size": 4473735,
+    "sha256": "207e3c0b49c5e403e856c544cd4a2671d9aa55bc7306f69a72176b855ef80c23"
+   }
+  },
+  {
+   "id": "gm:0:2",
+   "name": "Electric Grand Piano",
+   "group": "piano",
+   "bank": 0,
+   "program": 2,
+   "color": "#B24F39",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_2.zip",
+    "size": 2234435,
+    "sha256": "255504d33589840a3050514b0407c0be311a62031c6673094f48ab5e93144b26"
+   }
+  },
+  {
+   "id": "gm:0:3",
+   "name": "Honky-Tonk Piano",
+   "group": "piano",
+   "bank": 0,
+   "program": 3,
+   "color": "#B27162",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_3.zip",
+    "size": 2282981,
+    "sha256": "bb650b51b147b70a6d8f51dcd8bce2346103ecfd6fe22b1f65c4cfff70adc2e0"
+   }
+  },
+  {
+   "id": "gm:0:4",
+   "name": "Tine Electric Piano",
+   "group": "piano",
+   "bank": 0,
+   "program": 4,
+   "color": "#8277DB",
+   "core": true,
+   "premium": false,
+   "drum": false
+  },
+  {
+   "id": "gm:8:4",
+   "name": "Chorused Tine EP",
+   "group": "piano",
+   "bank": 8,
+   "program": 4,
+   "color": "#E67E67",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/8_4.zip",
+    "size": 368850,
+    "sha256": "4310c61a24f96ff2520d9939267231a3df55c24382a054421d9eb82a2d4a79d3"
+   }
+  },
+  {
+   "id": "gm:11:4",
+   "name": "Tine & FM EPs",
+   "group": "piano",
+   "bank": 11,
+   "program": 4,
+   "color": "#E66649",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/11_4.zip",
+    "size": 703380,
+    "sha256": "0c3d953f134046251e98a38d0f0fce1651aca397723e7cedfd2507d4cbc615c8"
+   }
+  },
+  {
+   "id": "gm:12:4",
+   "name": "Bell Tine EP",
+   "group": "piano",
+   "bank": 12,
+   "program": 4,
+   "color": "#E6917E",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/12_4.zip",
+    "size": 684433,
+    "sha256": "adf4c74fd43f92609d1d6320d28904ac7bcf49054f1e53bd01936e4963b6415b"
+   }
+  },
+  {
+   "id": "gm:0:5",
+   "name": "FM Electric Piano",
+   "group": "piano",
+   "bank": 0,
+   "program": 5,
+   "color": "#E67157",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_5.zip",
+    "size": 334880,
+    "sha256": "f2470ca8c9b8a4e5ffb9aacce3c884a481aa34794e557b1c2f783b81f1c282af"
+   }
+  },
+  {
+   "id": "gm:8:5",
+   "name": "Chorused FM EP",
+   "group": "piano",
+   "bank": 8,
+   "program": 5,
+   "color": "#C26A57",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/8_5.zip",
+    "size": 335071,
+    "sha256": "784c76c816b275a6f5df5fe9104a42d9fed1a0d64afcdaf1aab12737aa2b2243"
+   }
+  },
+  {
+   "id": "gm:11:5",
+   "name": "Piano & FM EP",
+   "group": "piano",
+   "bank": 11,
+   "program": 5,
+   "color": "#C2563E",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/11_5.zip",
+    "size": 2420385,
+    "sha256": "28dea7380242f4a479dbaa29ea50c84569c7c95f43e75cacc426013753c6d22b"
+   }
+  },
+  {
+   "id": "gm:0:6",
+   "name": "Harpsichord",
+   "group": "piano",
+   "bank": 0,
+   "program": 6,
+   "color": "#C27A6B",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_6.zip",
+    "size": 224923,
+    "sha256": "0681c52a584caedef8698cb8589ae54abbf9d8c7f68d05e56ff404f7e6200042"
+   }
+  },
+  {
+   "id": "gm:8:6",
+   "name": "Coupled Harpsichord",
+   "group": "piano",
+   "bank": 8,
+   "program": 6,
+   "color": "#C25F4A",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/8_6.zip",
+    "size": 224950,
+    "sha256": "1c0452316648526e23f4ae202f7bec5e153352d8058b86bf35bbb59bf6186d04"
+   }
+  },
+  {
+   "id": "gm:11:6",
+   "name": "Harpsichord noVel",
+   "group": "piano",
+   "bank": 11,
+   "program": 6,
+   "color": "#D1735E",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/11_6.zip",
+    "size": 224939,
+    "sha256": "3576232545b0d8889cc9098f4b35391faf40e214a3c5d6019d042fed4ab8a38c"
+   }
+  },
+  {
+   "id": "gm:12:6",
+   "name": "Coupled Harpsi noVel",
+   "group": "piano",
+   "bank": 12,
+   "program": 6,
+   "color": "#D15D43",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/12_6.zip",
+    "size": 224958,
+    "sha256": "c6313820b708e59f1ec454359336a50e341df21e9343d74c24650c9e2ffd443e"
+   }
+  },
+  {
+   "id": "gm:0:7",
+   "name": "Clavinet",
+   "group": "piano",
+   "bank": 0,
+   "program": 7,
+   "color": "#D18473",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_7.zip",
+    "size": 267044,
+    "sha256": "0f49ebd72a9d870c1346b455f3721757a8b273642f267b4f4a5c913f3f6eaf34"
+   }
+  },
+  {
+   "id": "gm:0:8",
+   "name": "Celeste",
+   "group": "chromatic",
+   "bank": 0,
+   "program": 8,
+   "color": "#D19B5E",
+   "core": true,
+   "premium": false,
+   "drum": false
+  },
+  {
+   "id": "gm:11:8",
+   "name": "Tinkling Bells",
+   "group": "chromatic",
+   "bank": 11,
+   "program": 8,
+   "color": "#D18F43",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/11_8.zip",
+    "size": 853,
+    "sha256": "08690c72072bd00fc7d62075e20c4079fea6d4cd1ed87138b7dd7ddaead89d4b"
+   }
+  },
+  {
+   "id": "gm:0:9",
+   "name": "Glockenspiel",
+   "group": "chromatic",
+   "bank": 0,
+   "program": 9,
+   "color": "#D1A573",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_9.zip",
+    "size": 62669,
+    "sha256": "312153d7dfe0d11249e0913c5fab110be1e03a0401c6671066009e1cfad6851e"
+   }
+  },
+  {
+   "id": "gm:0:10",
+   "name": "Music Box",
+   "group": "chromatic",
+   "bank": 0,
+   "program": 10,
+   "color": "#85BEE8",
+   "core": true,
+   "premium": false,
+   "drum": false
+  },
+  {
+   "id": "gm:12:10",
+   "name": "Christmas Bells",
+   "group": "chromatic",
+   "bank": 12,
+   "program": 10,
+   "color": "#B28550",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/12_10.zip",
+    "size": 5081,
+    "sha256": "c8249595b8857489c6e97b3beae43e5617f9ef577a6ad1f1a85b16d72a0806b8"
+   }
+  },
+  {
+   "id": "gm:0:11",
+   "name": "Vibraphone",
+   "group": "chromatic",
+   "bank": 0,
+   "program": 11,
+   "color": "#B27A39",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_11.zip",
+    "size": 79533,
+    "sha256": "42f003700141d5f7f4f15ec74d897e471ecb1737e925993a41cc3bb2a60ac020"
+   }
+  },
+  {
+   "id": "gm:11:11",
+   "name": "Vibraphone No Trem.",
+   "group": "chromatic",
+   "bank": 11,
+   "program": 11,
+   "color": "#B28D62",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/11_11.zip",
+    "size": 79559,
+    "sha256": "858791c2713897f92171249e4188693e444b4945254b7ed07688db205f74ebb1"
+   }
+  },
+  {
+   "id": "gm:0:12",
+   "name": "Marimba",
+   "group": "chromatic",
+   "bank": 0,
+   "program": 12,
+   "color": "#E89E09",
+   "core": true,
+   "premium": true,
+   "drum": false
+  },
+  {
+   "id": "gm:0:13",
+   "name": "Xylophone",
+   "group": "chromatic",
+   "bank": 0,
+   "program": 13,
+   "color": "#E6AB67",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_13.zip",
+    "size": 46393,
+    "sha256": "e3c98fbbddc5786c90ab760272832fc0e556c0a00f879bdf3a367da555082a07"
+   }
+  },
+  {
+   "id": "gm:0:14",
+   "name": "Tubular Bells",
+   "group": "chromatic",
+   "bank": 0,
+   "program": 14,
+   "color": "#3A9E74",
+   "core": true,
+   "premium": false,
+   "drum": false
+  },
+  {
+   "id": "gm:8:14",
+   "name": "Church Bells",
+   "group": "chromatic",
+   "bank": 8,
+   "program": 14,
+   "color": "#E6B57E",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/8_14.zip",
+    "size": 516043,
+    "sha256": "66ce9e2a650c9d6ab39b0a02d6194640b7de21695714750f4d8719e1ecc3253d"
+   }
+  },
+  {
+   "id": "gm:9:14",
+   "name": "Carillon",
+   "group": "chromatic",
+   "bank": 9,
+   "program": 14,
+   "color": "#E6A357",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/9_14.zip",
+    "size": 5422,
+    "sha256": "11fc2c352f15ef387936624990604eb5761a1ecfaa7930f7ff3532129ef608dd"
+   }
+  },
+  {
+   "id": "gm:11:14",
+   "name": "Bell Tower",
+   "group": "chromatic",
+   "bank": 11,
+   "program": 14,
+   "color": "#C29057",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/11_14.zip",
+    "size": 526845,
+    "sha256": "df7c875f83a6a59d37ec550b8b8067c6502846f3b7e5be5c80025fce798371be"
+   }
+  },
+  {
+   "id": "gm:0:15",
+   "name": "Dulcimer",
+   "group": "chromatic",
+   "bank": 0,
+   "program": 15,
+   "color": "#C2843E",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_15.zip",
+    "size": 419869,
+    "sha256": "31926d24c2c461be8f964fc12a82d9742d4a28823d203b84dcb4876cf28289fd"
+   }
+  },
+  {
+   "id": "gm:0:16",
+   "name": "Tonewheel Organ",
+   "group": "organ",
+   "bank": 0,
+   "program": 16,
+   "color": "#D1C45E",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_16.zip",
+    "size": 38862,
+    "sha256": "8d421683aee7f873a741eb154339b4157cc7ba030b2b242dd05657d09333d2ee"
+   }
+  },
+  {
+   "id": "gm:8:16",
+   "name": "Detuned Tnwl. Organ",
+   "group": "organ",
+   "bank": 8,
+   "program": 16,
+   "color": "#D1C143",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/8_16.zip",
+    "size": 38897,
+    "sha256": "0c3062d69fa27d222716f674e348bf13fae053e60d848568af6cca80f9ca5621"
+   }
+  },
+  {
+   "id": "gm:11:16",
+   "name": "Tonewheel Org noVel",
+   "group": "organ",
+   "bank": 11,
+   "program": 16,
+   "color": "#D1C673",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/11_16.zip",
+    "size": 38870,
+    "sha256": "42efeb9637d69baa06ad3728e2af59f851e8836f6af3134365bccd85e908b1c3"
+   }
+  },
+  {
+   "id": "gm:12:16",
+   "name": "Detun Tnwl Org noVel",
+   "group": "organ",
+   "bank": 12,
+   "program": 16,
+   "color": "#D1C24F",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/12_16.zip",
+    "size": 38893,
+    "sha256": "f77dbf0e10b445fbf64a2478686b563a28e3cfd1c2dda89433e40c42e5f3d905"
+   }
+  },
+  {
+   "id": "gm:0:17",
+   "name": "Percussive Organ",
+   "group": "organ",
+   "bank": 0,
+   "program": 17,
+   "color": "#B2A750",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_17.zip",
+    "size": 169511,
+    "sha256": "5453dfbba8e56538e8a3bfaaf49f2037f80f7a1b907ba8f724a20dd552bb0aa9"
+   }
+  },
+  {
+   "id": "gm:8:17",
+   "name": "Detuned Perc. Organ",
+   "group": "organ",
+   "bank": 8,
+   "program": 17,
+   "color": "#B2A539",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/8_17.zip",
+    "size": 169547,
+    "sha256": "86a548be5184c61b30171a58688752b4f1996fd0941e5e88fec24898ebdac35d"
+   }
+  },
+  {
+   "id": "gm:11:17",
+   "name": "Percussive Org noVel",
+   "group": "organ",
+   "bank": 11,
+   "program": 17,
+   "color": "#B2A962",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/11_17.zip",
+    "size": 169517,
+    "sha256": "3bcc9b13f8def1a1013c1d41ac83bd3a92c85fd8f427b131df8b7a35778e6e85"
+   }
+  },
+  {
+   "id": "gm:12:17",
+   "name": "Detun Perc Org noVel",
+   "group": "organ",
+   "bank": 12,
+   "program": 17,
+   "color": "#B2A644",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/12_17.zip",
+    "size": 169542,
+    "sha256": "3ba0c1d0ef27642b73ac0921da381695d8b9c9927c71e9f933a674a953366af1"
+   }
+  },
+  {
+   "id": "gm:0:18",
+   "name": "Rock Organ",
+   "group": "organ",
+   "bank": 0,
+   "program": 18,
+   "color": "#E6D767",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_18.zip",
+    "size": 199210,
+    "sha256": "c0ebd42d516bea8999832ec3a495bcefb9623578e4ec4f747edc51fba886360a"
+   }
+  },
+  {
+   "id": "gm:11:18",
+   "name": "Rock Organ noVel",
+   "group": "organ",
+   "bank": 11,
+   "program": 18,
+   "color": "#E6D449",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/11_18.zip",
+    "size": 199216,
+    "sha256": "056b673cce1df8a1aad107ac4e74356312f60ee07e8f1ed27709862367bced75"
+   }
+  },
+  {
+   "id": "gm:0:19",
+   "name": "Pipe Organ",
+   "group": "organ",
+   "bank": 0,
+   "program": 19,
+   "color": "#E6DA7E",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_19.zip",
+    "size": 457637,
+    "sha256": "7b05542469104233797987664fb8f641e09c8fdf3ca6378d6923706167cc63b4"
+   }
+  },
+  {
+   "id": "gm:8:19",
+   "name": "Pipe Organ 2",
+   "group": "organ",
+   "bank": 8,
+   "program": 19,
+   "color": "#E6D557",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/8_19.zip",
+    "size": 496366,
+    "sha256": "664e5d5007b2b494eaeff095e9f6b5bb5c51f883743d1bc068a2e51f6ca44973"
+   }
+  },
+  {
+   "id": "gm:11:19",
+   "name": "Pipe Organ noVel",
+   "group": "organ",
+   "bank": 11,
+   "program": 19,
+   "color": "#C2B657",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/11_19.zip",
+    "size": 457651,
+    "sha256": "a2ee75c6619785c5103a1beabbb1076d8152d578ed02d184c32765dfa115f6cb"
+   }
+  },
+  {
+   "id": "gm:12:19",
+   "name": "Pipe Organ 2 noVel",
+   "group": "organ",
+   "bank": 12,
+   "program": 19,
+   "color": "#C2B33E",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/12_19.zip",
+    "size": 496378,
+    "sha256": "2e89336fb18903c14b904a82ad9b4d65ef051c00f662a2fd54e61344f1009a89"
+   }
+  },
+  {
+   "id": "gm:0:20",
+   "name": "Reed Organ",
+   "group": "organ",
+   "bank": 0,
+   "program": 20,
+   "color": "#C2B86B",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_20.zip",
+    "size": 211001,
+    "sha256": "b53c936db0f37662c7badfc06ab01a2ac97741acb0506c8512ef85d20fb0ca52"
+   }
+  },
+  {
+   "id": "gm:11:20",
+   "name": "Reed Organ noVel",
+   "group": "organ",
+   "bank": 11,
+   "program": 20,
+   "color": "#C2B44A",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/11_20.zip",
+    "size": 211009,
+    "sha256": "01a5a30b1a29f34b5185bf126d815b72b10491d9db4f2a369870ef4eded81824"
+   }
+  },
+  {
+   "id": "gm:0:21",
+   "name": "Accordion",
+   "group": "organ",
+   "bank": 0,
+   "program": 21,
+   "color": "#D1C45E",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_21.zip",
+    "size": 210769,
+    "sha256": "b4ee40a39c4458ce5e7df673cf7446c595d736f36cfd4697a1bc47b11fe88020"
+   }
+  },
+  {
+   "id": "gm:8:21",
+   "name": "Italian Accordion",
+   "group": "organ",
+   "bank": 8,
+   "program": 21,
+   "color": "#D1C143",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/8_21.zip",
+    "size": 210690,
+    "sha256": "7b920fe9b48e58540757d6e12f7c0436c9b6866b167c4d3be63a7e16bc266e22"
+   }
+  },
+  {
+   "id": "gm:0:22",
+   "name": "Harmonica",
+   "group": "organ",
+   "bank": 0,
+   "program": 22,
+   "color": "#D1C673",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_22.zip",
+    "size": 61156,
+    "sha256": "79f60aed7c13b2600d25255c4004aa331bdf63dd5dd0f215a2309cd550631c4c"
+   }
+  },
+  {
+   "id": "gm:0:23",
+   "name": "Bandoneon",
+   "group": "organ",
+   "bank": 0,
+   "program": 23,
+   "color": "#D1C24F",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_23.zip",
+    "size": 210739,
+    "sha256": "f9ee4ed6c70988cafaac3de64f93f203f5456b03e395d5a936f45ddd71dd2ea9"
+   }
+  },
+  {
+   "id": "gm:0:24",
+   "name": "Nylon Guitar",
+   "group": "guitar",
+   "bank": 0,
+   "program": 24,
+   "color": "#C46D46",
+   "core": true,
+   "premium": true,
+   "drum": false
+  },
+  {
+   "id": "gm:8:24",
+   "name": "Ukulele",
+   "group": "guitar",
+   "bank": 8,
+   "program": 24,
+   "color": "#AFD143",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/8_24.zip",
+    "size": 10257,
+    "sha256": "cd063f963a70dd6fba501762651e913e14ad5180de0632277492fae9288a3c05"
+   }
+  },
+  {
+   "id": "gm:0:25",
+   "name": "Steel Guitar",
+   "group": "guitar",
+   "bank": 0,
+   "program": 25,
+   "color": "#BBD173",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_25.zip",
+    "size": 379093,
+    "sha256": "9dbed03a2e4a56ddd9ee31372f43a526a1fc79b11820c13d277bc8adc627aeae"
+   }
+  },
+  {
+   "id": "gm:8:25",
+   "name": "12-String Guitar",
+   "group": "guitar",
+   "bank": 8,
+   "program": 25,
+   "color": "#B2D14F",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/8_25.zip",
+    "size": 379459,
+    "sha256": "491ff5e0d4fa112ddd3c15e72f0efd1e39fd3f0dd0372fff290843cb384d8e07"
+   }
+  },
+  {
+   "id": "gm:16:25",
+   "name": "Mandolin",
+   "group": "guitar",
+   "bank": 16,
+   "program": 25,
+   "color": "#9BB250",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/16_25.zip",
+    "size": 300706,
+    "sha256": "419b98045e73a0a5e13082a1acc156c92d6c31c5798fbc8d9536e45cfb957ca7"
+   }
+  },
+  {
+   "id": "gm:0:26",
+   "name": "Jazz Guitar",
+   "group": "guitar",
+   "bank": 0,
+   "program": 26,
+   "color": "#96B239",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_26.zip",
+    "size": 280116,
+    "sha256": "e1a7946536d253e61145faf6e505671889ccf837d791be5ba2ac251dc7be8ab6"
+   }
+  },
+  {
+   "id": "gm:8:26",
+   "name": "Hawaiian Guitar",
+   "group": "guitar",
+   "bank": 8,
+   "program": 26,
+   "color": "#9FB262",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/8_26.zip",
+    "size": 777,
+    "sha256": "09e968bcd9d0243c0f497ecfe3d4bbccf72b546116077e6951f4b6c890fe04f2"
+   }
+  },
+  {
+   "id": "gm:0:27",
+   "name": "Clean Guitar",
+   "group": "guitar",
+   "bank": 0,
+   "program": 27,
+   "color": "#98B244",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_27.zip",
+    "size": 474459,
+    "sha256": "c4085cfcce43d0365b30856f7e8dc42f24c52e42968c64498cd613f57c7b5045"
+   }
+  },
+  {
+   "id": "gm:8:27",
+   "name": "Chorused Clean Gt.",
+   "group": "guitar",
+   "bank": 8,
+   "program": 27,
+   "color": "#C7E667",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/8_27.zip",
+    "size": 474528,
+    "sha256": "de36efa4d1a0240a90166d65e7555d2fec57fe1eca3df7f5aa91123480548d87"
+   }
+  },
+  {
+   "id": "gm:12:27",
+   "name": "Clean Guitar 2",
+   "group": "guitar",
+   "bank": 12,
+   "program": 27,
+   "color": "#C0E649",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/12_27.zip",
+    "size": 853021,
+    "sha256": "caec0ada9413766792a44e228cc023c51ba8d875c5e7ae2a8b70f63652d12986"
+   }
+  },
+  {
+   "id": "gm:0:28",
+   "name": "Muted Guitar",
+   "group": "guitar",
+   "bank": 0,
+   "program": 28,
+   "color": "#CDE67E",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_28.zip",
+    "size": 46864,
+    "sha256": "f68544d05b74724e2bc65f7a3a33650ab5b5460bdec6521b1ef50352d66d7396"
+   }
+  },
+  {
+   "id": "gm:8:28",
+   "name": "Funk Guitar",
+   "group": "guitar",
+   "bank": 8,
+   "program": 28,
+   "color": "#C4E657",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/8_28.zip",
+    "size": 526501,
+    "sha256": "66b1cb35e038e7e51215e9a148010b06422837f2004157c034e0487773989858"
+   }
+  },
+  {
+   "id": "gm:0:29",
+   "name": "Overdrive Guitar",
+   "group": "guitar",
+   "bank": 0,
+   "program": 29,
+   "color": "#A8C257",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_29.zip",
+    "size": 877967,
+    "sha256": "66eeec297ffada3c67d62f4f9de0248abafb7e52a646a7039bdc59101e8fa34a"
+   }
+  },
+  {
+   "id": "gm:11:29",
+   "name": "Wah Guitar (CC21)",
+   "group": "guitar",
+   "bank": 11,
+   "program": 29,
+   "color": "#A2C23E",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/11_29.zip",
+    "size": 878002,
+    "sha256": "5dba40a05262b6033a59692080fdc6c575df698178ebc1fbaeb13be0b6307036"
+   }
+  },
+  {
+   "id": "gm:0:30",
+   "name": "Distortion Guitar",
+   "group": "guitar",
+   "bank": 0,
+   "program": 30,
+   "color": "#ADC26B",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_30.zip",
+    "size": 802391,
+    "sha256": "aa5612fe451cfb9fe7584cfcf108dad3ed58197a5c68bc64ba795c3f28e33924"
+   }
+  },
+  {
+   "id": "gm:8:30",
+   "name": "Feedback Guitar",
+   "group": "guitar",
+   "bank": 8,
+   "program": 30,
+   "color": "#A5C24A",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/8_30.zip",
+    "size": 802847,
+    "sha256": "ef68caff86f934cecd7ede63711eceacbf6b4bbb70c052ff02ced01d4f793d84"
+   }
+  },
+  {
+   "id": "gm:0:31",
+   "name": "Guitar Harmonics",
+   "group": "guitar",
+   "bank": 0,
+   "program": 31,
+   "color": "#B6D15E",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_31.zip",
+    "size": 33386,
+    "sha256": "a9d6916b3b5dee8ef386a0d0d397ff10529f4d049b3b6c678d9b76390d0d8af1"
+   }
+  },
+  {
+   "id": "gm:8:31",
+   "name": "Guitar Feedback",
+   "group": "guitar",
+   "bank": 8,
+   "program": 31,
+   "color": "#AFD143",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/8_31.zip",
+    "size": 825,
+    "sha256": "fe9fb82d226a23a9b63edcef71a122d8699d2c0e897f0d054a96f8255386381f"
+   }
+  },
+  {
+   "id": "gm:0:32",
+   "name": "Acoustic Bass",
+   "group": "bass",
+   "bank": 0,
+   "program": 32,
+   "color": "#8DD15E",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_32.zip",
+    "size": 62473,
+    "sha256": "39eed6b85bedbaf315654b75ac220410511b19f8b9f50619616038b5147038a4"
+   }
+  },
+  {
+   "id": "gm:0:33",
+   "name": "Finger Bass",
+   "group": "bass",
+   "bank": 0,
+   "program": 33,
+   "color": "#33312B",
+   "core": true,
+   "premium": true,
+   "drum": false
+  },
+  {
+   "id": "gm:0:34",
+   "name": "Pick Bass",
+   "group": "bass",
+   "bank": 0,
+   "program": 34,
+   "color": "#99D173",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_34.zip",
+    "size": 139374,
+    "sha256": "448bf0ed217bee3a28b0db2b96dc9fd7638962d9113b5005c2dcc4a58d8b2bdb"
+   }
+  },
+  {
+   "id": "gm:0:35",
+   "name": "Fretless Bass",
+   "group": "bass",
+   "bank": 0,
+   "program": 35,
+   "color": "#84D14F",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_35.zip",
+    "size": 127358,
+    "sha256": "265fe084d98e9de45bd5b7a5e347a2b19964460f3374b267863791a87aaf8256"
+   }
+  },
+  {
+   "id": "gm:0:36",
+   "name": "Slap Bass 1",
+   "group": "bass",
+   "bank": 0,
+   "program": 36,
+   "color": "#78B250",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_36.zip",
+    "size": 83288,
+    "sha256": "125993c92589117a663e50d6e5e17d60476966f29e079e36a2613a0f0bac3f6a"
+   }
+  },
+  {
+   "id": "gm:0:37",
+   "name": "Slap Bass 2",
+   "group": "bass",
+   "bank": 0,
+   "program": 37,
+   "color": "#6BB239",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_37.zip",
+    "size": 82714,
+    "sha256": "7d73ba25c2dbce81032ebd8a7ee831c560118a9a01d2b09dd5bb95baa5183bac"
+   }
+  },
+  {
+   "id": "gm:0:38",
+   "name": "Synth Bass 1",
+   "group": "bass",
+   "bank": 0,
+   "program": 38,
+   "color": "#168F88",
+   "core": true,
+   "premium": false,
+   "drum": false
+  },
+  {
+   "id": "gm:1:38",
+   "name": "Synth Bass 101",
+   "group": "bass",
+   "bank": 1,
+   "program": 38,
+   "color": "#71B244",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/1_38.zip",
+    "size": 15765,
+    "sha256": "77f9e50668b2e7a0fff9e07967f2be10e0b4eca736f8def1c99c4d28ae4ab1c1"
+   }
+  },
+  {
+   "id": "gm:8:38",
+   "name": "Acid Bass",
+   "group": "bass",
+   "bank": 8,
+   "program": 38,
+   "color": "#9BE667",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/8_38.zip",
+    "size": 15844,
+    "sha256": "caa1e4ee95f86d7e1fc01e2bdbeddad38ba9dccb30095fc5483e9fad5e8c7ee3"
+   }
+  },
+  {
+   "id": "gm:11:38",
+   "name": "Techno Bass",
+   "group": "bass",
+   "bank": 11,
+   "program": 38,
+   "color": "#89E649",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/11_38.zip",
+    "size": 26617,
+    "sha256": "30e09f1973347eed3ccd2b915a5983f9e2f6f844394ed0380ccc590c4483b837"
+   }
+  },
+  {
+   "id": "gm:12:38",
+   "name": "Mean Saw Bass",
+   "group": "bass",
+   "bank": 12,
+   "program": 38,
+   "color": "#A8E67E",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/12_38.zip",
+    "size": 33175,
+    "sha256": "88d85a4caebc0dd6503463eaf97687778e085cdd0f99d398612862472dbfc51c"
+   }
+  },
+  {
+   "id": "gm:0:39",
+   "name": "Synth Bass 2",
+   "group": "bass",
+   "bank": 0,
+   "program": 39,
+   "color": "#91E657",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_39.zip",
+    "size": 273778,
+    "sha256": "0ed6c09506a0346781eeb494ca6dfd6dccf4ff9bed2fbedf0313585f195dc561"
+   }
+  },
+  {
+   "id": "gm:8:39",
+   "name": "Beef FM Bass",
+   "group": "bass",
+   "bank": 8,
+   "program": 39,
+   "color": "#83C257",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/8_39.zip",
+    "size": 341165,
+    "sha256": "00bbf69b881f07cfab6c3dcb02368ceaece95a1fa3f5a2802dd9314493e155f7"
+   }
+  },
+  {
+   "id": "gm:11:39",
+   "name": "Pulse Bass",
+   "group": "bass",
+   "bank": 11,
+   "program": 39,
+   "color": "#74C23E",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/11_39.zip",
+    "size": 12639,
+    "sha256": "e1e0d24213a96b3e572c11e0e5a9454f2b221592e4a0eea72cf483a06fc18f00"
+   }
+  },
+  {
+   "id": "gm:0:40",
+   "name": "Violin",
+   "group": "strings",
+   "bank": 0,
+   "program": 40,
+   "color": "#64D15E",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_40.zip",
+    "size": 775339,
+    "sha256": "db4c5388f4c7c756583cb2f94d9f729fbd5075599c4cafc78b3a585f46b40b68"
+   }
+  },
+  {
+   "id": "gm:0:41",
+   "name": "Viola",
+   "group": "strings",
+   "bank": 0,
+   "program": 41,
+   "color": "#4BD143",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_41.zip",
+    "size": 756487,
+    "sha256": "235237e4a3f9b2801310215ae9034ec0ab91b1c3c97b89324e8d546ceea476f8"
+   }
+  },
+  {
+   "id": "gm:0:42",
+   "name": "Cello",
+   "group": "strings",
+   "bank": 0,
+   "program": 42,
+   "color": "#78D173",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_42.zip",
+    "size": 982956,
+    "sha256": "db7b3c03d81779188c25ef7e3fd8ba0d91ff226be6f214b1cb73fae30d1babe9"
+   }
+  },
+  {
+   "id": "gm:0:43",
+   "name": "Double Bass",
+   "group": "strings",
+   "bank": 0,
+   "program": 43,
+   "color": "#57D14F",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@1e15d74388b54ae36d7175a988efeaf65b81c884/0_43.zip",
+    "size": 567281,
+    "sha256": "961f330f7a1a1b798e2678713fd4d17e09518f3586abffbd05ec794e512b4a5c"
+   }
+  },
+  {
+   "id": "gm:0:44",
+   "name": "Tremolo Strings",
+   "group": "strings",
+   "bank": 0,
+   "program": 44,
+   "color": "#56B250",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_44.zip",
+    "size": 2389233,
+    "sha256": "fc396c274eeb4bc3e6b60b7969fc751e1a60ee7eb691bab1dcade5ae49ffd1dc"
+   }
+  },
+  {
+   "id": "gm:1:44",
+   "name": "Tremolo Strings Mono",
+   "group": "strings",
+   "bank": 1,
+   "program": 44,
+   "color": "#40B239",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/1_44.zip",
+    "size": 2388935,
+    "sha256": "4abe3f748c9d2a28fdb24139a2aa5f8ac1ab046b2753744603201f12b35fffb6"
+   }
+  },
+  {
+   "id": "gm:0:45",
+   "name": "Pizzicato Strings",
+   "group": "strings",
+   "bank": 0,
+   "program": 45,
+   "color": "#67B262",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_45.zip",
+    "size": 51869,
+    "sha256": "89a5d4665351c61710a38638da3e5ff09a25259e26c244fb0d4b5051348af6d4"
+   }
+  },
+  {
+   "id": "gm:0:46",
+   "name": "Orchestral Harp",
+   "group": "strings",
+   "bank": 0,
+   "program": 46,
+   "color": "#8BC34A",
+   "core": true,
+   "premium": false,
+   "drum": false
+  },
+  {
+   "id": "gm:0:47",
+   "name": "Timpani",
+   "group": "strings",
+   "bank": 0,
+   "program": 47,
+   "color": "#6EE667",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_47.zip",
+    "size": 197342,
+    "sha256": "3bfa3c66e80673fc10277e942952882d89d97a5e72c17fd1e4ae17723ebfd347"
+   }
+  },
+  {
+   "id": "gm:0:48",
+   "name": "Fast Strings",
+   "group": "ensemble",
+   "bank": 0,
+   "program": 48,
+   "color": "#DE7BAE",
+   "core": true,
+   "premium": false,
+   "drum": false
+  },
+  {
+   "id": "gm:1:48",
+   "name": "Fast Strings Mono",
+   "group": "ensemble",
+   "bank": 1,
+   "program": 48,
+   "color": "#43D16D",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/1_48.zip",
+    "size": 2389190,
+    "sha256": "908057b9113949e50cd46ab3c7940e5d5e427b79398e812114c3c34c9f5f3d36"
+   }
+  },
+  {
+   "id": "gm:8:48",
+   "name": "Orchestra Pad",
+   "group": "ensemble",
+   "bank": 8,
+   "program": 48,
+   "color": "#73D18F",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/8_48.zip",
+    "size": 3290018,
+    "sha256": "eca20ed34600a8e606f01b2fc744730a36b5563f7fe113ad53f95f925c249081"
+   }
+  },
+  {
+   "id": "gm:12:48",
+   "name": "Full Orchestra",
+   "group": "ensemble",
+   "bank": 12,
+   "program": 48,
+   "color": "#4FD176",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/12_48.zip",
+    "size": 4386918,
+    "sha256": "df9d3eb31e5d9787f7bc623544ba81aebee7046d476c6b1afd079011b1ee6432"
+   }
+  },
+  {
+   "id": "gm:13:48",
+   "name": "Woodwind Choir",
+   "group": "ensemble",
+   "bank": 13,
+   "program": 48,
+   "color": "#50B26E",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/13_48.zip",
+    "size": 1478018,
+    "sha256": "74c36c3f379487d1edbce19ab470c1cfe62c32f1c17bfc3f3dd4c522146b463f"
+   }
+  },
+  {
+   "id": "gm:0:49",
+   "name": "Slow Strings",
+   "group": "ensemble",
+   "bank": 0,
+   "program": 49,
+   "color": "#39B25D",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_49.zip",
+    "size": 2389190,
+    "sha256": "dd2edd3ed565216bc6966912b724b71dcb1b54a1960f71d01df9383235480cf6"
+   }
+  },
+  {
+   "id": "gm:1:49",
+   "name": "Slow Strings Mono",
+   "group": "ensemble",
+   "bank": 1,
+   "program": 49,
+   "color": "#62B27A",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/1_49.zip",
+    "size": 2389160,
+    "sha256": "c5e88bbf01733483dd79528b48298a3ae1a477eb0fce05029b2798db4f1d563e"
+   }
+  },
+  {
+   "id": "gm:11:49",
+   "name": "Velo Strings",
+   "group": "ensemble",
+   "bank": 11,
+   "program": 49,
+   "color": "#44B265",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/11_49.zip",
+    "size": 2389192,
+    "sha256": "29134ca2e914a237990e4073504e73ebe66f4caef08c9b4c2a1dd8eb7f6c4c89"
+   }
+  },
+  {
+   "id": "gm:12:49",
+   "name": "Velo Strings Mono",
+   "group": "ensemble",
+   "bank": 12,
+   "program": 49,
+   "color": "#67E68D",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/12_49.zip",
+    "size": 2389170,
+    "sha256": "0fa6d3a4d04533e9731eeccf8769bde99775fd0a75097a5df4dea75283a0e9e6"
+   }
+  },
+  {
+   "id": "gm:0:50",
+   "name": "Synth Strings 1",
+   "group": "ensemble",
+   "bank": 0,
+   "program": 50,
+   "color": "#49E678",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_50.zip",
+    "size": 247801,
+    "sha256": "f545e9b82e6e2353915c2bd1f4c451eca9be90bb53d0f8f31b17d9cc81c78763"
+   }
+  },
+  {
+   "id": "gm:8:50",
+   "name": "Synth Strings 3",
+   "group": "ensemble",
+   "bank": 8,
+   "program": 50,
+   "color": "#7EE69D",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/8_50.zip",
+    "size": 247955,
+    "sha256": "85ba583fa78ba8afd39a4eaf0ca83e4d7d478d0e5314a15a95bd2ff45743a0ce"
+   }
+  },
+  {
+   "id": "gm:11:50",
+   "name": "Synth Strings 4",
+   "group": "ensemble",
+   "bank": 11,
+   "program": 50,
+   "color": "#57E682",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/11_50.zip",
+    "size": 20120,
+    "sha256": "80e4498a0c5b7e54b485c193a3688e409a658340c893823f8c45c757d9dd22ee"
+   }
+  },
+  {
+   "id": "gm:0:51",
+   "name": "Synth Strings 2",
+   "group": "ensemble",
+   "bank": 0,
+   "program": 51,
+   "color": "#57C277",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_51.zip",
+    "size": 171157,
+    "sha256": "92e3629be02edcd04c103e0151af0eed81ed2cd3706611225c5cd4f3ed829dfe"
+   }
+  },
+  {
+   "id": "gm:11:51",
+   "name": "Synth Strings 5",
+   "group": "ensemble",
+   "bank": 11,
+   "program": 51,
+   "color": "#3EC265",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/11_51.zip",
+    "size": 20093,
+    "sha256": "7d26221b91c5d9397c669c3f843bd32ef667fcc4d91b772392f18136be1b0eba"
+   }
+  },
+  {
+   "id": "gm:0:52",
+   "name": "Concert Choir",
+   "group": "ensemble",
+   "bank": 0,
+   "program": 52,
+   "color": "#6BC285",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_52.zip",
+    "size": 734492,
+    "sha256": "93907eccd800b55890eac909a6c9f92dcc0644dd1da7c1dc3c3fa0b7809bd0a7"
+   }
+  },
+  {
+   "id": "gm:1:52",
+   "name": "Concert Choir Mono",
+   "group": "ensemble",
+   "bank": 1,
+   "program": 52,
+   "color": "#4AC26D",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/1_52.zip",
+    "size": 734326,
+    "sha256": "f6bb99c0f524096df2c9d40e68e771d3ed177d7507b3d2b45ac739893ff4b66e"
+   }
+  },
+  {
+   "id": "gm:0:53",
+   "name": "Voice Oohs",
+   "group": "ensemble",
+   "bank": 0,
+   "program": 53,
+   "color": "#5ED180",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_53.zip",
+    "size": 550557,
+    "sha256": "4ad8d22edfb5a4580e923177c664101103230528dbecbb8cf80233d869c570fb"
+   }
+  },
+  {
+   "id": "gm:0:54",
+   "name": "Synth Voice",
+   "group": "ensemble",
+   "bank": 0,
+   "program": 54,
+   "color": "#43D16D",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_54.zip",
+    "size": 389393,
+    "sha256": "2765ff97a727824f216207948b2002251f1b096b19f7d03d79ae0bd51bc7413a"
+   }
+  },
+  {
+   "id": "gm:0:55",
+   "name": "Orchestra Hit",
+   "group": "ensemble",
+   "bank": 0,
+   "program": 55,
+   "color": "#73D18F",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_55.zip",
+    "size": 72063,
+    "sha256": "e899ba19d29840a033c5625f1ff9c2dadd39ce4ec8eaf93e97d0c3c35c150162"
+   }
+  },
+  {
+   "id": "gm:0:56",
+   "name": "Trumpet",
+   "group": "brass",
+   "bank": 0,
+   "program": 56,
+   "color": "#5ED1A9",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_56.zip",
+    "size": 85821,
+    "sha256": "a33afb60a1ea4ddeca903dd51dda20292e76028b90e52200f6bc9e4ab27e0e80"
+   }
+  },
+  {
+   "id": "gm:1:56",
+   "name": "Trumpet 2",
+   "group": "brass",
+   "bank": 1,
+   "program": 56,
+   "color": "#43D19F",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/1_56.zip",
+    "size": 85926,
+    "sha256": "310f3edf0995cca246d7014e71acf89382ced691935c7181dff5628aabf4b9f1"
+   }
+  },
+  {
+   "id": "gm:0:57",
+   "name": "Trombone",
+   "group": "brass",
+   "bank": 0,
+   "program": 57,
+   "color": "#73D1B0",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_57.zip",
+    "size": 148253,
+    "sha256": "43be6247dbc46267a70f65100fd095e5e6debaf51edfdbffc849c9fc1a64ae53"
+   }
+  },
+  {
+   "id": "gm:1:57",
+   "name": "Trombone 2",
+   "group": "brass",
+   "bank": 1,
+   "program": 57,
+   "color": "#4FD1A4",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/1_57.zip",
+    "size": 148318,
+    "sha256": "394a155bd77822ac6db113635dca32e1d59b5d144d62caba806fea75a2609963"
+   }
+  },
+  {
+   "id": "gm:0:58",
+   "name": "Tuba",
+   "group": "brass",
+   "bank": 0,
+   "program": 58,
+   "color": "#50B290",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_58.zip",
+    "size": 124601,
+    "sha256": "84101a7f2ff6981aabc63082dc6bfd5da0e2556e7e3cbf39a8674893ca357d32"
+   }
+  },
+  {
+   "id": "gm:0:59",
+   "name": "Muted Trumpet",
+   "group": "brass",
+   "bank": 0,
+   "program": 59,
+   "color": "#39B288",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_59.zip",
+    "size": 174517,
+    "sha256": "bcc419698fb68a3c44813fffb38c17a9ce116d29a53734d7808db48ecce46b62"
+   }
+  },
+  {
+   "id": "gm:0:60",
+   "name": "French Horns",
+   "group": "brass",
+   "bank": 0,
+   "program": 60,
+   "color": "#62B296",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_60.zip",
+    "size": 461678,
+    "sha256": "19885c61db143a35917e70a2907a2ebefa9967b56ed475b01e4bd51ad9ccbe24"
+   }
+  },
+  {
+   "id": "gm:1:60",
+   "name": "Solo French Horn",
+   "group": "brass",
+   "bank": 1,
+   "program": 60,
+   "color": "#44B28C",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/1_60.zip",
+    "size": 327261,
+    "sha256": "53e221c43eb6c49372285f27d74e9ffd99c88d034b508774016a3a51f41eef48"
+   }
+  },
+  {
+   "id": "gm:0:61",
+   "name": "Brass Section",
+   "group": "brass",
+   "bank": 0,
+   "program": 61,
+   "color": "#67E6B9",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_61.zip",
+    "size": 871729,
+    "sha256": "8a5e1eb8321dae6a7a3f79182dbe46e6a3e077c2f2e8a900649f434f513363f7"
+   }
+  },
+  {
+   "id": "gm:1:61",
+   "name": "Brass Section Mono",
+   "group": "brass",
+   "bank": 1,
+   "program": 61,
+   "color": "#49E6AF",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/1_61.zip",
+    "size": 871628,
+    "sha256": "4cea7b9de4832d4a06b6ced3a58a5a0a1558aab7fb2ce394bbbe40f1cb601d0d"
+   }
+  },
+  {
+   "id": "gm:8:61",
+   "name": "Brass Section 2",
+   "group": "brass",
+   "bank": 8,
+   "program": 61,
+   "color": "#7EE6C1",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/8_61.zip",
+    "size": 1105230,
+    "sha256": "8108968a5309ce9c0bed264df9dee3c79ffc3c17064a26c52bf59c243663d76a"
+   }
+  },
+  {
+   "id": "gm:11:61",
+   "name": "Brass Section 3",
+   "group": "brass",
+   "bank": 11,
+   "program": 61,
+   "color": "#57E6B4",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/11_61.zip",
+    "size": 272937,
+    "sha256": "31790ed42dba9a3d3dd5eba9d1745376e7e459bfd481d69fa9a96ac80d91caee"
+   }
+  },
+  {
+   "id": "gm:0:62",
+   "name": "Synth Brass 1",
+   "group": "brass",
+   "bank": 0,
+   "program": 62,
+   "color": "#57C29D",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_62.zip",
+    "size": 15905,
+    "sha256": "88f6b00164dc470366a622a32489636fa6ef3319fb4f0ef6634ee53228d330a6"
+   }
+  },
+  {
+   "id": "gm:8:62",
+   "name": "Synth Brass 3",
+   "group": "brass",
+   "bank": 8,
+   "program": 62,
+   "color": "#3EC294",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/8_62.zip",
+    "size": 1724,
+    "sha256": "b90038956b33eb9bd057ef54ad34820f05bf2e65ea701196a6dbf4e563a6de1d"
+   }
+  },
+  {
+   "id": "gm:0:63",
+   "name": "Synth Brass 2",
+   "group": "brass",
+   "bank": 0,
+   "program": 63,
+   "color": "#6BC2A3",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_63.zip",
+    "size": 16158,
+    "sha256": "634796dd780acbf3bf0492e2ae041a9a7c597125025bbc6790b98c33df3bee06"
+   }
+  },
+  {
+   "id": "gm:8:63",
+   "name": "Synth Brass 4",
+   "group": "brass",
+   "bank": 8,
+   "program": 63,
+   "color": "#4AC298",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/8_63.zip",
+    "size": 27900,
+    "sha256": "f085bce38afb1947e8c4e525d991aa72ac045d99a9f4fd78cf19c5e7253e6904"
+   }
+  },
+  {
+   "id": "gm:0:64",
+   "name": "Soprano Sax",
+   "group": "reed",
+   "bank": 0,
+   "program": 64,
+   "color": "#5ED1D1",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_64.zip",
+    "size": 273385,
+    "sha256": "8e05503e916314c4d66bfd49b93c0ae58c979e38c28f4e5c85ac433d4a916331"
+   }
+  },
+  {
+   "id": "gm:0:65",
+   "name": "Alto Sax",
+   "group": "reed",
+   "bank": 0,
+   "program": 65,
+   "color": "#D9A025",
+   "core": true,
+   "premium": true,
+   "drum": false
+  },
+  {
+   "id": "gm:0:66",
+   "name": "Tenor Sax",
+   "group": "reed",
+   "bank": 0,
+   "program": 66,
+   "color": "#73D1D1",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_66.zip",
+    "size": 382180,
+    "sha256": "7d6fed4e1514968e94bb6e0648d1a9bd83a6cf7c56f1354b4b8cc71fe763eb1e"
+   }
+  },
+  {
+   "id": "gm:0:67",
+   "name": "Baritone Sax",
+   "group": "reed",
+   "bank": 0,
+   "program": 67,
+   "color": "#4FD1D1",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_67.zip",
+    "size": 190824,
+    "sha256": "5054745fa243adf5e6ded49eeb768c4297a02cc98b8dc7968cd08a10beca37d7"
+   }
+  },
+  {
+   "id": "gm:0:68",
+   "name": "Oboe",
+   "group": "reed",
+   "bank": 0,
+   "program": 68,
+   "color": "#50B2B2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_68.zip",
+    "size": 317781,
+    "sha256": "84eb5a016684355fbd1ca35fbc80185b2d02a0b394555231ecfa71c46c648ab5"
+   }
+  },
+  {
+   "id": "gm:0:69",
+   "name": "English Horn",
+   "group": "reed",
+   "bank": 0,
+   "program": 69,
+   "color": "#39B2B2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_69.zip",
+    "size": 232029,
+    "sha256": "01242b3268a6666605cf985e12a1af7942b53e6f37e249445bae9b67afb14c69"
+   }
+  },
+  {
+   "id": "gm:0:70",
+   "name": "Bassoon",
+   "group": "reed",
+   "bank": 0,
+   "program": 70,
+   "color": "#62B2B2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_70.zip",
+    "size": 474564,
+    "sha256": "47b12c3e1541ed009899a830c1c808f0bb261e5ef3e2625dc9bee3d59eeea93e"
+   }
+  },
+  {
+   "id": "gm:0:71",
+   "name": "Clarinet",
+   "group": "reed",
+   "bank": 0,
+   "program": 71,
+   "color": "#44B2B2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_71.zip",
+    "size": 47059,
+    "sha256": "73ff239a41ec8f28e53d2f9661406758aa31199f356b1b62fc7618558795f670"
+   }
+  },
+  {
+   "id": "gm:0:72",
+   "name": "Piccolo",
+   "group": "pipe",
+   "bank": 0,
+   "program": 72,
+   "color": "#5EA8D1",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_72.zip",
+    "size": 153901,
+    "sha256": "f3061d7970900a261c00666c6195e34ce0cd1c74ba864e60b979f0549aa023ad"
+   }
+  },
+  {
+   "id": "gm:0:73",
+   "name": "Flute",
+   "group": "pipe",
+   "bank": 0,
+   "program": 73,
+   "color": "#3E5EC6",
+   "core": true,
+   "premium": false,
+   "drum": false
+  },
+  {
+   "id": "gm:0:74",
+   "name": "Recorder",
+   "group": "pipe",
+   "bank": 0,
+   "program": 74,
+   "color": "#73B0D1",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_74.zip",
+    "size": 210316,
+    "sha256": "3ee6a26363d3a36f99760ebbf5130717c16fbe9caaf0b6b1ffc1f77eda7a9689"
+   }
+  },
+  {
+   "id": "gm:0:75",
+   "name": "Pan Flute",
+   "group": "pipe",
+   "bank": 0,
+   "program": 75,
+   "color": "#4FA3D1",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_75.zip",
+    "size": 74051,
+    "sha256": "e8c5bb6ca980ef287a0a6d66fa7f144be31aa9f35b44449db2c93c820f1191a8"
+   }
+  },
+  {
+   "id": "gm:24:75",
+   "name": "Tin Whistle",
+   "group": "pipe",
+   "bank": 24,
+   "program": 75,
+   "color": "#5090B2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/24_75.zip",
+    "size": 79626,
+    "sha256": "6cf6ad4ac859ac7f98d51621974b0dc600d1a55c4d3975e17f00e5ae93d8ced5"
+   }
+  },
+  {
+   "id": "gm:25:75",
+   "name": "Tin Whistle Nm",
+   "group": "pipe",
+   "bank": 25,
+   "program": 75,
+   "color": "#3987B2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/25_75.zip",
+    "size": 79617,
+    "sha256": "026977467edaec966eb2aef1ede37e5235910c9c0b8637c9453eecc9bce1e97c"
+   }
+  },
+  {
+   "id": "gm:26:75",
+   "name": "Tin Whistle Or",
+   "group": "pipe",
+   "bank": 26,
+   "program": 75,
+   "color": "#6296B2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/26_75.zip",
+    "size": 79619,
+    "sha256": "0e66f7006f9c59a835ddc0874b9a472185fc3ae0bfe09d4365c3e11c0f8d0dae"
+   }
+  },
+  {
+   "id": "gm:0:76",
+   "name": "Bottle Blow",
+   "group": "pipe",
+   "bank": 0,
+   "program": 76,
+   "color": "#448BB2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_76.zip",
+    "size": 80838,
+    "sha256": "8d0084255d68fb060f5229cde7bdce029c63cf52b433fe7b58f7a3fafcf3faa9"
+   }
+  },
+  {
+   "id": "gm:0:77",
+   "name": "Shakuhachi",
+   "group": "pipe",
+   "bank": 0,
+   "program": 77,
+   "color": "#67B9E6",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_77.zip",
+    "size": 144575,
+    "sha256": "846158929bdfd5e412869a620ceeaf65beef4cf45adf136522d2e3f5e0ea8e94"
+   }
+  },
+  {
+   "id": "gm:0:78",
+   "name": "Whistle",
+   "group": "pipe",
+   "bank": 0,
+   "program": 78,
+   "color": "#49AEE6",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_78.zip",
+    "size": 235180,
+    "sha256": "ef509d7768fede150a294bfcf2de524b37bb091a6af65fc8e72de9fa4a1ebbc0"
+   }
+  },
+  {
+   "id": "gm:11:78",
+   "name": "Whistlin'",
+   "group": "pipe",
+   "bank": 11,
+   "program": 78,
+   "color": "#7EC1E6",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/11_78.zip",
+    "size": 245145,
+    "sha256": "e72cf79c3fe94ddf3b28ee7820d49c515e835342abdadce84bcd30d8dacfec83"
+   }
+  },
+  {
+   "id": "gm:0:79",
+   "name": "Ocarina",
+   "group": "pipe",
+   "bank": 0,
+   "program": 79,
+   "color": "#57B3E6",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_79.zip",
+    "size": 220227,
+    "sha256": "a295c246a7589bee5371167ca352407aad8c810e74eee94358334299d976f4a8"
+   }
+  },
+  {
+   "id": "gm:0:80",
+   "name": "Square Lead",
+   "group": "synth_lead",
+   "bank": 0,
+   "program": 80,
+   "color": "#F4BE82",
+   "core": true,
+   "premium": true,
+   "drum": false
+  },
+  {
+   "id": "gm:1:80",
+   "name": "Square Wave",
+   "group": "synth_lead",
+   "bank": 1,
+   "program": 80,
+   "color": "#436CD1",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/1_80.zip",
+    "size": 15349,
+    "sha256": "ef177cfb5d3fc7ed7ed31bcd9c9879f1d8afe1184dccc02e6b31b9fd6f823c6e"
+   }
+  },
+  {
+   "id": "gm:8:80",
+   "name": "Sine Wave",
+   "group": "synth_lead",
+   "bank": 8,
+   "program": 80,
+   "color": "#738ED1",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/8_80.zip",
+    "size": 2857,
+    "sha256": "0c437bd15917e02c24bd8b7c2937af0f958d83bf87ef49cb6a645b8ccf1c6796"
+   }
+  },
+  {
+   "id": "gm:12:80",
+   "name": "Square Lead 2",
+   "group": "synth_lead",
+   "bank": 12,
+   "program": 80,
+   "color": "#4F75D1",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/12_80.zip",
+    "size": 15430,
+    "sha256": "e4452c084c94c051aa1af6781ed516e82f1cfcec328cad516c9a1a78a370277d"
+   }
+  },
+  {
+   "id": "gm:13:80",
+   "name": "Square Lead 3",
+   "group": "synth_lead",
+   "bank": 13,
+   "program": 80,
+   "color": "#506DB2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/13_80.zip",
+    "size": 15400,
+    "sha256": "e402844a99d5826ae24fa3025ea119d94f79f994f7089d5d425a3846fc3b2a15"
+   }
+  },
+  {
+   "id": "gm:0:81",
+   "name": "Saw Lead",
+   "group": "synth_lead",
+   "bank": 0,
+   "program": 81,
+   "color": "#395CB2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_81.zip",
+    "size": 15860,
+    "sha256": "0fc940ba205eb6b8a4460b84c466f084b114cbe52744bd1e6351f784fe0362ab"
+   }
+  },
+  {
+   "id": "gm:1:81",
+   "name": "Saw Wave",
+   "group": "synth_lead",
+   "bank": 1,
+   "program": 81,
+   "color": "#627AB2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/1_81.zip",
+    "size": 15715,
+    "sha256": "1aa6433b11f609636d8170ff80e739a3f1eb92e31eaaed5b71557f3de1656231"
+   }
+  },
+  {
+   "id": "gm:8:81",
+   "name": "Doctor Solo",
+   "group": "synth_lead",
+   "bank": 8,
+   "program": 81,
+   "color": "#4464B2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/8_81.zip",
+    "size": 27881,
+    "sha256": "d7920037c3673fa1c6cfd9d212238bc1b854c61eecc9ef57f0fb57f383a1c438"
+   }
+  },
+  {
+   "id": "gm:11:81",
+   "name": "Sawtooth Stab",
+   "group": "synth_lead",
+   "bank": 11,
+   "program": 81,
+   "color": "#678CE6",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/11_81.zip",
+    "size": 15786,
+    "sha256": "51cfd1506ad2b0a5b90aee2d1e20ae382e1ef0889a9e4a59976a9a55ed96df6e"
+   }
+  },
+  {
+   "id": "gm:12:81",
+   "name": "Saw Lead 2",
+   "group": "synth_lead",
+   "bank": 12,
+   "program": 81,
+   "color": "#4977E6",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/12_81.zip",
+    "size": 15780,
+    "sha256": "a9cb9426d11c4833aeee362da25e2c41d068e3e0f4eed2fdbeadbc6b473f5e7b"
+   }
+  },
+  {
+   "id": "gm:13:81",
+   "name": "Saw Lead 3",
+   "group": "synth_lead",
+   "bank": 13,
+   "program": 81,
+   "color": "#7E9CE6",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/13_81.zip",
+    "size": 15792,
+    "sha256": "8fe33968af16f001973ec0c7fe8600f6908b4211c15b631b11d0c7cfc01602e5"
+   }
+  },
+  {
+   "id": "gm:0:82",
+   "name": "Synth Calliope",
+   "group": "synth_lead",
+   "bank": 0,
+   "program": 82,
+   "color": "#5781E6",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_82.zip",
+    "size": 112267,
+    "sha256": "70f4eb77b64f9d2507d5797aec48b874eb3d0231f60a48f0489327a2699a4b3d"
+   }
+  },
+  {
+   "id": "gm:0:83",
+   "name": "Chiffer Lead",
+   "group": "synth_lead",
+   "bank": 0,
+   "program": 83,
+   "color": "#5776C2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_83.zip",
+    "size": 280305,
+    "sha256": "2288f2408793468235c2fb25eaca5f8de0ca1d60aef857225ac79e5d0cbbf2d7"
+   }
+  },
+  {
+   "id": "gm:0:84",
+   "name": "Charang",
+   "group": "synth_lead",
+   "bank": 0,
+   "program": 84,
+   "color": "#3E64C2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_84.zip",
+    "size": 727769,
+    "sha256": "9c123e3cdf57d8ab2fd160337c7cf07f5a0366d4892d29a1ef26a197884ea253"
+   }
+  },
+  {
+   "id": "gm:0:85",
+   "name": "Solo Vox",
+   "group": "synth_lead",
+   "bank": 0,
+   "program": 85,
+   "color": "#6B84C2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_85.zip",
+    "size": 60758,
+    "sha256": "975e8044c1c19c253be8364562a052b4c5f6bbfd19bc92a77f99280ae2cb6d2c"
+   }
+  },
+  {
+   "id": "gm:0:86",
+   "name": "5th Saw Wave",
+   "group": "synth_lead",
+   "bank": 0,
+   "program": 86,
+   "color": "#4A6DC2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_86.zip",
+    "size": 168564,
+    "sha256": "ff61875fcd9849fdb44e87500e284b81c1f77d8fb31fb4d078fa8fd03fcb7189"
+   }
+  },
+  {
+   "id": "gm:0:87",
+   "name": "Bass & Lead",
+   "group": "synth_lead",
+   "bank": 0,
+   "program": 87,
+   "color": "#5E80D1",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_87.zip",
+    "size": 42895,
+    "sha256": "672a0f9acc7a014b8631e007eb24ee73f905383f197184b0072d0ad16801448e"
+   }
+  },
+  {
+   "id": "gm:0:88",
+   "name": "Fantasia",
+   "group": "synth_pad",
+   "bank": 0,
+   "program": 88,
+   "color": "#655ED1",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_88.zip",
+    "size": 388927,
+    "sha256": "10d205e3fb9eb1263cb0c8a91de488fa7b07870449ef049b046d2e1418d40d3e"
+   }
+  },
+  {
+   "id": "gm:11:88",
+   "name": "Harpsi Pad",
+   "group": "synth_pad",
+   "bank": 11,
+   "program": 88,
+   "color": "#4C43D1",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/11_88.zip",
+    "size": 462600,
+    "sha256": "e3871809fda1022b928369c6b45f29321d206102a001b769545467db83252c80"
+   }
+  },
+  {
+   "id": "gm:12:88",
+   "name": "Fantasia 2",
+   "group": "synth_pad",
+   "bank": 12,
+   "program": 88,
+   "color": "#7973D1",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/12_88.zip",
+    "size": 25795,
+    "sha256": "c4d730950b0b699d7358ab4b3e02d766a37ba4f65f032008e9b572dacef1df29"
+   }
+  },
+  {
+   "id": "gm:13:88",
+   "name": "Night Vision",
+   "group": "synth_pad",
+   "bank": 13,
+   "program": 88,
+   "color": "#584FD1",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/13_88.zip",
+    "size": 264062,
+    "sha256": "2fe42e1cc2d9bba2700eb35fdd2d93bd30085a07ab32c5000e28a85731ee760a"
+   }
+  },
+  {
+   "id": "gm:0:89",
+   "name": "Warm Pad",
+   "group": "synth_pad",
+   "bank": 0,
+   "program": 89,
+   "color": "#D05928",
+   "core": true,
+   "premium": false,
+   "drum": false
+  },
+  {
+   "id": "gm:11:89",
+   "name": "Solar Wind",
+   "group": "synth_pad",
+   "bank": 11,
+   "program": 89,
+   "color": "#4139B2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/11_89.zip",
+    "size": 54143,
+    "sha256": "d4c841c9c74de13ddabdc861e127dd17274f446922d2b362e6420054f36f58f9"
+   }
+  },
+  {
+   "id": "gm:12:89",
+   "name": "Solar Wind 2",
+   "group": "synth_pad",
+   "bank": 12,
+   "program": 89,
+   "color": "#6762B2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/12_89.zip",
+    "size": 54140,
+    "sha256": "689be82608c5cdff28084d757082c3d15aab7df5c93dccaf28c53395572e0dc7"
+   }
+  },
+  {
+   "id": "gm:0:90",
+   "name": "Polysynth",
+   "group": "synth_pad",
+   "bank": 0,
+   "program": 90,
+   "color": "#4B44B2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_90.zip",
+    "size": 517044,
+    "sha256": "fd15c7d5a83854616d1074d3e60205f5d9a32222a844fafa92f9717881a920a2"
+   }
+  },
+  {
+   "id": "gm:0:91",
+   "name": "Space Voice",
+   "group": "synth_pad",
+   "bank": 0,
+   "program": 91,
+   "color": "#6F67E6",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_91.zip",
+    "size": 171344,
+    "sha256": "6d858e3f696ce7eb0cb928c0b0ac92261d15a4694c9c93711e1b5abca65a65ba"
+   }
+  },
+  {
+   "id": "gm:0:92",
+   "name": "Bowed Glass",
+   "group": "synth_pad",
+   "bank": 0,
+   "program": 92,
+   "color": "#5349E6",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_92.zip",
+    "size": 369813,
+    "sha256": "7ec1ba431c8614987f9c7387544993148246a9f18fdb79454ad5353a7b06e83a"
+   }
+  },
+  {
+   "id": "gm:0:93",
+   "name": "Metal Pad",
+   "group": "synth_pad",
+   "bank": 0,
+   "program": 93,
+   "color": "#857EE6",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_93.zip",
+    "size": 549500,
+    "sha256": "9ca54d06f8caae5b2ed0bc98a0f35160fea013d33201a4691763eecc01dc841b"
+   }
+  },
+  {
+   "id": "gm:0:94",
+   "name": "Halo Pad",
+   "group": "synth_pad",
+   "bank": 0,
+   "program": 94,
+   "color": "#6057E6",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_94.zip",
+    "size": 636749,
+    "sha256": "4ffcf3ec536cf5d9e3a87438c088d9a5c07c1a89150cc1b68845d10377814ee5"
+   }
+  },
+  {
+   "id": "gm:0:95",
+   "name": "Sweep Pad",
+   "group": "synth_pad",
+   "bank": 0,
+   "program": 95,
+   "color": "#5E57C2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_95.zip",
+    "size": 517067,
+    "sha256": "5a88d1c0732e415abc60beb30d2b1d9555fd6c0740e13623ead285be45e22c63"
+   }
+  },
+  {
+   "id": "gm:0:96",
+   "name": "Ice Rain",
+   "group": "synth_fx",
+   "bank": 0,
+   "program": 96,
+   "color": "#8E5ED1",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_96.zip",
+    "size": 315041,
+    "sha256": "53706b33d7351cbf126285bef9a177a28e99f9a2e1aced9b3006ed6b7dd3fce2"
+   }
+  },
+  {
+   "id": "gm:11:96",
+   "name": "Mystery Pad",
+   "group": "synth_fx",
+   "bank": 11,
+   "program": 96,
+   "color": "#7E43D1",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/11_96.zip",
+    "size": 27845,
+    "sha256": "5f2b96c8406e36f455d14b3b26129d307f8336c0870dba49582b0579abdafdbd"
+   }
+  },
+  {
+   "id": "gm:0:97",
+   "name": "Soundtrack",
+   "group": "synth_fx",
+   "bank": 0,
+   "program": 97,
+   "color": "#9A73D1",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_97.zip",
+    "size": 415977,
+    "sha256": "f6939f1e29dce9db448965da9b1d9fcc6cdf42f8458c253dd426fbcb23808ef0"
+   }
+  },
+  {
+   "id": "gm:0:98",
+   "name": "Crystal",
+   "group": "synth_fx",
+   "bank": 0,
+   "program": 98,
+   "color": "#854FD1",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_98.zip",
+    "size": 134087,
+    "sha256": "31f021275b56be187414f46907cd4b9ad04ca7c482cf1bac50c8134144221ad3"
+   }
+  },
+  {
+   "id": "gm:1:98",
+   "name": "Synth Mallet",
+   "group": "synth_fx",
+   "bank": 1,
+   "program": 98,
+   "color": "#7950B2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/1_98.zip",
+    "size": 122675,
+    "sha256": "625de516f8ebc5cd98854f988f67e448fcd319d19b78d59903a6a15ddec4dd48"
+   }
+  },
+  {
+   "id": "gm:11:98",
+   "name": "Synth Chime",
+   "group": "synth_fx",
+   "bank": 11,
+   "program": 98,
+   "color": "#6C39B2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/11_98.zip",
+    "size": 2789,
+    "sha256": "3cbff666916b1bfcc9c84e3b249cc17796d0a0f8b06282cf0d71485218880f62"
+   }
+  },
+  {
+   "id": "gm:0:99",
+   "name": "Atmosphere",
+   "group": "synth_fx",
+   "bank": 0,
+   "program": 99,
+   "color": "#8462B2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@3672a6818c45de3b8ab5c36c644727cc9afc9301/0_99.zip",
+    "size": 570253,
+    "sha256": "596189c982d9430c3644c1920d523d3d7a73a49432f0e53f47727527334452f9"
+   }
+  },
+  {
+   "id": "gm:0:100",
+   "name": "Brightness",
+   "group": "synth_fx",
+   "bank": 0,
+   "program": 100,
+   "color": "#7244B2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_100.zip",
+    "size": 317400,
+    "sha256": "78cfa0755c826e98d245792c45b02ce0bc89bbd24689a297eecbd4ef30de4497"
+   }
+  },
+  {
+   "id": "gm:11:100",
+   "name": "Bright Saw Stack",
+   "group": "synth_fx",
+   "bank": 11,
+   "program": 100,
+   "color": "#9C67E6",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/11_100.zip",
+    "size": 247878,
+    "sha256": "d3cbe6a4a171936a9b0ac860d37120410eea998fd499f587315156d383a447ce"
+   }
+  },
+  {
+   "id": "gm:0:101",
+   "name": "Goblin",
+   "group": "synth_fx",
+   "bank": 0,
+   "program": 101,
+   "color": "#8A49E6",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_101.zip",
+    "size": 122175,
+    "sha256": "bf60a5f4d54c219e730d4c74970753b73702c947216324c8fa8ad024fb6de2e8"
+   }
+  },
+  {
+   "id": "gm:0:102",
+   "name": "Echo Drops",
+   "group": "synth_fx",
+   "bank": 0,
+   "program": 102,
+   "color": "#A97EE6",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_102.zip",
+    "size": 459035,
+    "sha256": "08cec249df76902d243fe77be5993d219548cc5cc5d37fb9948a6c1a6e7f90d8"
+   }
+  },
+  {
+   "id": "gm:2:102",
+   "name": "Echo Pan",
+   "group": "synth_fx",
+   "bank": 2,
+   "program": 102,
+   "color": "#9257E6",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/2_102.zip",
+    "size": 15979,
+    "sha256": "7b2f080d4d0de892dfeb5069590b58334401b040dccad87727ce662525c19f8c"
+   }
+  },
+  {
+   "id": "gm:0:103",
+   "name": "Star Theme",
+   "group": "synth_fx",
+   "bank": 0,
+   "program": 103,
+   "color": "#8357C2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_103.zip",
+    "size": 645025,
+    "sha256": "29201846bf7e25faadf144c63ab3bfa99a13cb3fb6836ce842b679047f2637e4"
+   }
+  },
+  {
+   "id": "gm:0:104",
+   "name": "Sitar",
+   "group": "ethnic",
+   "bank": 0,
+   "program": 104,
+   "color": "#B65ED1",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_104.zip",
+    "size": 427697,
+    "sha256": "87d7e6e945e76b11970008160659ae8fea486cd1b4b41240054db07b3ac1ff81"
+   }
+  },
+  {
+   "id": "gm:0:105",
+   "name": "Banjo",
+   "group": "ethnic",
+   "bank": 0,
+   "program": 105,
+   "color": "#B043D1",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_105.zip",
+    "size": 208519,
+    "sha256": "80bb07a22a11f8155e089aaf9a23d9f50fb96f0e45b245bc6bcd10d35d76fa9b"
+   }
+  },
+  {
+   "id": "gm:0:106",
+   "name": "Shamisen",
+   "group": "ethnic",
+   "bank": 0,
+   "program": 106,
+   "color": "#BB73D1",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_106.zip",
+    "size": 27163,
+    "sha256": "ad2ce56e02583a6197c82f5303cdca5ba16379f068b4c0b33ebc13bb1ef52e54"
+   }
+  },
+  {
+   "id": "gm:0:107",
+   "name": "Koto",
+   "group": "ethnic",
+   "bank": 0,
+   "program": 107,
+   "color": "#B34FD1",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_107.zip",
+    "size": 301989,
+    "sha256": "412ef6636b7f06910615d74e37c172317aae77bc712e56f46ed3ebca7588adad"
+   }
+  },
+  {
+   "id": "gm:8:107",
+   "name": "Taisho Koto",
+   "group": "ethnic",
+   "bank": 8,
+   "program": 107,
+   "color": "#9C50B2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/8_107.zip",
+    "size": 680558,
+    "sha256": "2687125d9fdc9618f0e78636f57e1a3f52c712044c17e2ff214e426939430c17"
+   }
+  },
+  {
+   "id": "gm:0:108",
+   "name": "Kalimba",
+   "group": "ethnic",
+   "bank": 0,
+   "program": 108,
+   "color": "#9639B2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_108.zip",
+    "size": 24467,
+    "sha256": "c71be6e667965bb0256c194f34a342872bbd5dee13dc2c98388c8e8b9a8fb465"
+   }
+  },
+  {
+   "id": "gm:0:109",
+   "name": "Bagpipes",
+   "group": "ethnic",
+   "bank": 0,
+   "program": 109,
+   "color": "#A062B2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_109.zip",
+    "size": 68443,
+    "sha256": "114d1385ed9dedd4fa828299691a715c6bbb422ca1cfbf6e86816d58bc965a73"
+   }
+  },
+  {
+   "id": "gm:0:110",
+   "name": "Fiddle",
+   "group": "ethnic",
+   "bank": 0,
+   "program": 110,
+   "color": "#9944B2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_110.zip",
+    "size": 775348,
+    "sha256": "aefa7d071bddc92d1e7f146218c93eed0abaf67fd2b3b16bc3f976e04044590b"
+   }
+  },
+  {
+   "id": "gm:0:111",
+   "name": "Shenai",
+   "group": "ethnic",
+   "bank": 0,
+   "program": 111,
+   "color": "#C867E6",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_111.zip",
+    "size": 9620,
+    "sha256": "b35c64ee420d9aa9b91937474088a199a63f4196f228c3ca2f16c01b2972b613"
+   }
+  },
+  {
+   "id": "gm:0:112",
+   "name": "Tinker Bell",
+   "group": "percussive",
+   "bank": 0,
+   "program": 112,
+   "color": "#D15EC3",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_112.zip",
+    "size": 23173,
+    "sha256": "dee685a3a3766c800f41f11f119dd4f7d8fb28a078cf428934fe1a29da299445"
+   }
+  },
+  {
+   "id": "gm:0:113",
+   "name": "Agogo",
+   "group": "percussive",
+   "bank": 0,
+   "program": 113,
+   "color": "#D143C0",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_113.zip",
+    "size": 15641,
+    "sha256": "4ea781f668737da392a9aa07523e5fffb97886be6d81cdef7f8a1628b3da9a7f"
+   }
+  },
+  {
+   "id": "gm:0:114",
+   "name": "Steel Drums",
+   "group": "percussive",
+   "bank": 0,
+   "program": 114,
+   "color": "#D173C6",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_114.zip",
+    "size": 49580,
+    "sha256": "2708c5dabdb24f156020793e3036417195b4eaa3d6fd403265d3652f514c8a4d"
+   }
+  },
+  {
+   "id": "gm:0:115",
+   "name": "Wood Block",
+   "group": "percussive",
+   "bank": 0,
+   "program": 115,
+   "color": "#D14FC1",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_115.zip",
+    "size": 12579,
+    "sha256": "9853628cae712167df8350b30866c19cb6f17d0eb3c920ceba806429570bd919"
+   }
+  },
+  {
+   "id": "gm:8:115",
+   "name": "Castanets",
+   "group": "percussive",
+   "bank": 8,
+   "program": 115,
+   "color": "#B250A7",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/8_115.zip",
+    "size": 3302,
+    "sha256": "54b4aebffaf09a3f736ebc4cebfa66f9348e386a48662a5ae4060119c410c329"
+   }
+  },
+  {
+   "id": "gm:0:116",
+   "name": "Taiko Drum",
+   "group": "percussive",
+   "bank": 0,
+   "program": 116,
+   "color": "#B239A4",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_116.zip",
+    "size": 23979,
+    "sha256": "72db6028d8b8a7f1503b799ac2f04ebc003d4191cc51de757bcc036b7ef1714b"
+   }
+  },
+  {
+   "id": "gm:8:116",
+   "name": "Concert Bass Drum",
+   "group": "percussive",
+   "bank": 8,
+   "program": 116,
+   "color": "#B262A9",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/8_116.zip",
+    "size": 102498,
+    "sha256": "3dd806318db7b32d8cc1fba83aaa402b973169dbdc50bc6c77df6829a4f776c6"
+   }
+  },
+  {
+   "id": "gm:0:117",
+   "name": "Melodic Tom",
+   "group": "percussive",
+   "bank": 0,
+   "program": 117,
+   "color": "#B244A5",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_117.zip",
+    "size": 428588,
+    "sha256": "de0355b492b09cb1569f87db054cb22d5a839a75408b33977e7f1f2b8b7b2a74"
+   }
+  },
+  {
+   "id": "gm:8:117",
+   "name": "Melodic Tom 2",
+   "group": "percussive",
+   "bank": 8,
+   "program": 117,
+   "color": "#E667D6",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/8_117.zip",
+    "size": 121824,
+    "sha256": "60a5518f045750d8686f7cdf7a3fa2e783f3047e9dc54b72fd52b3cff2772402"
+   }
+  },
+  {
+   "id": "gm:0:118",
+   "name": "Synth Drum",
+   "group": "percussive",
+   "bank": 0,
+   "program": 118,
+   "color": "#E649D3",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_118.zip",
+    "size": 28030,
+    "sha256": "99af806a2ead7af961c909f5a93e885754ccbdba9db35213dc8371a4da398f37"
+   }
+  },
+  {
+   "id": "gm:8:118",
+   "name": "808 Tom",
+   "group": "percussive",
+   "bank": 8,
+   "program": 118,
+   "color": "#E67ED9",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/8_118.zip",
+    "size": 2758,
+    "sha256": "4a06c217fa6c0a05a4f5a21e4c77d5a3bff46f62759197e6920f49e8c9dd6681"
+   }
+  },
+  {
+   "id": "gm:0:119",
+   "name": "Reverse Cymbal",
+   "group": "percussive",
+   "bank": 0,
+   "program": 119,
+   "color": "#E657D4",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_119.zip",
+    "size": 72881,
+    "sha256": "a5aeb8fcdf335e1066b6f5edda1b91e657c6d6e24234282056c52c018dc1f879"
+   }
+  },
+  {
+   "id": "gm:11:119",
+   "name": "Cymbal Crash",
+   "group": "percussive",
+   "bank": 11,
+   "program": 119,
+   "color": "#C257B5",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/11_119.zip",
+    "size": 328691,
+    "sha256": "9828e211bb565340961188f3c6656fb480ee28f47cdc8287846bbb9c7095e19e"
+   }
+  },
+  {
+   "id": "gm:12:119",
+   "name": "Tambourine",
+   "group": "percussive",
+   "bank": 12,
+   "program": 119,
+   "color": "#C23EB2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/12_119.zip",
+    "size": 13506,
+    "sha256": "9bd4c706ad0b336ae65db01a59f06e50bcacd2040468f1b8fcc801e823bf9ad6"
+   }
+  },
+  {
+   "id": "gm:0:120",
+   "name": "Fret Noise",
+   "group": "sound_fx",
+   "bank": 0,
+   "program": 120,
+   "color": "#D15E9B",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_120.zip",
+    "size": 15401,
+    "sha256": "379e9d84a9b6ec8fe39419880ef9497a32e98c2a93e638989ca5436cf29a6a8f"
+   }
+  },
+  {
+   "id": "gm:1:120",
+   "name": "Cut Noise",
+   "group": "sound_fx",
+   "bank": 1,
+   "program": 120,
+   "color": "#D1438E",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/1_120.zip",
+    "size": 5810,
+    "sha256": "700613805caf9ef695eedadc12b47b8d26c9f5bfc5006282b4fa3e700d2863a6"
+   }
+  },
+  {
+   "id": "gm:2:120",
+   "name": "String Slap",
+   "group": "sound_fx",
+   "bank": 2,
+   "program": 120,
+   "color": "#D173A4",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/2_120.zip",
+    "size": 5670,
+    "sha256": "f588a1795d38e2f8b0d7510e1637d5b66c86bf0ffe03cbb9572cda8fea1a8d8f"
+   }
+  },
+  {
+   "id": "gm:0:121",
+   "name": "Breath Noise",
+   "group": "sound_fx",
+   "bank": 0,
+   "program": 121,
+   "color": "#D14F94",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_121.zip",
+    "size": 18203,
+    "sha256": "635592f1fab7950216bf355f6390f31c62c4a022689dcb0f09575019c5c009f6"
+   }
+  },
+  {
+   "id": "gm:1:121",
+   "name": "Fl. Key Click",
+   "group": "sound_fx",
+   "bank": 1,
+   "program": 121,
+   "color": "#B25084",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/1_121.zip",
+    "size": 1052,
+    "sha256": "7f024525b524475633f91b126964837b554cdd9d8c0f7039366bd6a8b05329a3"
+   }
+  },
+  {
+   "id": "gm:11:121",
+   "name": "Filter Snap",
+   "group": "sound_fx",
+   "bank": 11,
+   "program": 121,
+   "color": "#B23979",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/11_121.zip",
+    "size": 4103,
+    "sha256": "cdfb0d75f364ace38751a714371b66d2d7f75f047a21e8fbc7846fb1ca74118c"
+   }
+  },
+  {
+   "id": "gm:0:122",
+   "name": "Seashore",
+   "group": "sound_fx",
+   "bank": 0,
+   "program": 122,
+   "color": "#B2628C",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_122.zip",
+    "size": 41494,
+    "sha256": "0d9879ce9f7bf20437a2c06de4250c7c6ddb37447c0beeae50b21558209d57d6"
+   }
+  },
+  {
+   "id": "gm:1:122",
+   "name": "Rain",
+   "group": "sound_fx",
+   "bank": 1,
+   "program": 122,
+   "color": "#B2447E",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/1_122.zip",
+    "size": 102500,
+    "sha256": "8d1a12a0e78495c3874e864654fb2e30b6eadb9b8581a6fbe7b613120864b644"
+   }
+  },
+  {
+   "id": "gm:2:122",
+   "name": "Thunder",
+   "group": "sound_fx",
+   "bank": 2,
+   "program": 122,
+   "color": "#E667AA",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/2_122.zip",
+    "size": 69712,
+    "sha256": "26aceb104f1d2ae5960be6f5f6a1ec8a66d3bddbbd8a77c82d4c9546320e7bc8"
+   }
+  },
+  {
+   "id": "gm:3:122",
+   "name": "Wind",
+   "group": "sound_fx",
+   "bank": 3,
+   "program": 122,
+   "color": "#E6499C",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/3_122.zip",
+    "size": 232741,
+    "sha256": "306c65e756b1ad9b96fd0e4373f77427f42585a92f43f84f32a970937a6cf8b2"
+   }
+  },
+  {
+   "id": "gm:4:122",
+   "name": "Stream",
+   "group": "sound_fx",
+   "bank": 4,
+   "program": 122,
+   "color": "#E67EB5",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/4_122.zip",
+    "size": 120426,
+    "sha256": "5c834c3ada0c2aabb8d8b6ef48db92e5a0122989b7368aff364aecf6c0b8670c"
+   }
+  },
+  {
+   "id": "gm:5:122",
+   "name": "Bubbles",
+   "group": "sound_fx",
+   "bank": 5,
+   "program": 122,
+   "color": "#E657A2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/5_122.zip",
+    "size": 51666,
+    "sha256": "a293fa787dcb9c10fda0a3676ce61980176d246cad254af0755188c34e2d2d2b"
+   }
+  },
+  {
+   "id": "gm:11:122",
+   "name": "Howling Winds",
+   "group": "sound_fx",
+   "bank": 11,
+   "program": 122,
+   "color": "#C2578F",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/11_122.zip",
+    "size": 16742,
+    "sha256": "52fe3f8225a2c24758e4fa40cb11c0c1ee6f7fb1f53f1d09582e751daf74b735"
+   }
+  },
+  {
+   "id": "gm:12:122",
+   "name": "White Noise Wave",
+   "group": "sound_fx",
+   "bank": 12,
+   "program": 122,
+   "color": "#C23E83",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/12_122.zip",
+    "size": 232711,
+    "sha256": "e4e67e6c65b54aa194ba303c2ac06978d4fba8bf2e579a40de5a18b422c4602e"
+   }
+  },
+  {
+   "id": "gm:0:123",
+   "name": "Birds",
+   "group": "sound_fx",
+   "bank": 0,
+   "program": 123,
+   "color": "#C26B98",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_123.zip",
+    "size": 201022,
+    "sha256": "200a29882c8e6bd9ae04da105f28e98ceb6c22dfc0e7100a4cd0debc60235c07"
+   }
+  },
+  {
+   "id": "gm:1:123",
+   "name": "Dog",
+   "group": "sound_fx",
+   "bank": 1,
+   "program": 123,
+   "color": "#C24A89",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/1_123.zip",
+    "size": 18248,
+    "sha256": "313e4df06cfe73e4d729135c92bb2f93b71205f8050b3e9d6205e477d08fc252"
+   }
+  },
+  {
+   "id": "gm:2:123",
+   "name": "Horse Gallop",
+   "group": "sound_fx",
+   "bank": 2,
+   "program": 123,
+   "color": "#D15E9B",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/2_123.zip",
+    "size": 22927,
+    "sha256": "a8fb30e43496556c16638439cf467e1fee010cee456e5db645ec41d9e6ca185d"
+   }
+  },
+  {
+   "id": "gm:3:123",
+   "name": "Bird 2",
+   "group": "sound_fx",
+   "bank": 3,
+   "program": 123,
+   "color": "#D1438E",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/3_123.zip",
+    "size": 610,
+    "sha256": "0bfc4d8a49fbc74551e13d441e8fb2a427e26fed7064526a0697db6be7871506"
+   }
+  },
+  {
+   "id": "gm:0:124",
+   "name": "Telephone 1",
+   "group": "sound_fx",
+   "bank": 0,
+   "program": 124,
+   "color": "#D173A4",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_124.zip",
+    "size": 3899,
+    "sha256": "95e8371ae87a7fa4f520a0bb2c646ebd4d8f220dcbcce404ed8c6a972d46d241"
+   }
+  },
+  {
+   "id": "gm:1:124",
+   "name": "Telephone 2",
+   "group": "sound_fx",
+   "bank": 1,
+   "program": 124,
+   "color": "#D14F94",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/1_124.zip",
+    "size": 6772,
+    "sha256": "30b506f1ba0a990a132cb9f44ceaf5e1d1e843e82d4ab28933da2520d23494a5"
+   }
+  },
+  {
+   "id": "gm:2:124",
+   "name": "Door Creaking",
+   "group": "sound_fx",
+   "bank": 2,
+   "program": 124,
+   "color": "#B25084",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/2_124.zip",
+    "size": 55204,
+    "sha256": "bd25d874ebe8ac845991d4407ea974f20a060c57ac2cd67531d148f2888cf9bf"
+   }
+  },
+  {
+   "id": "gm:3:124",
+   "name": "Door",
+   "group": "sound_fx",
+   "bank": 3,
+   "program": 124,
+   "color": "#B23979",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/3_124.zip",
+    "size": 24676,
+    "sha256": "4b994cb6482672c743a4bc8af996e8cd3b5512f45d1df93c34176aa5aede4ced"
+   }
+  },
+  {
+   "id": "gm:4:124",
+   "name": "Scratch",
+   "group": "sound_fx",
+   "bank": 4,
+   "program": 124,
+   "color": "#B2628C",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/4_124.zip",
+    "size": 15733,
+    "sha256": "252209ac5ef39576c4c2dd269678790ba72ea49544c4d1b76df679c1fbc54570"
+   }
+  },
+  {
+   "id": "gm:5:124",
+   "name": "Windchime",
+   "group": "sound_fx",
+   "bank": 5,
+   "program": 124,
+   "color": "#B2447E",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/5_124.zip",
+    "size": 45804,
+    "sha256": "82841777eb0f7822966127c4a5aadf8bde6c0714ec27f96645d00e0cf6ef3d09"
+   }
+  },
+  {
+   "id": "gm:0:125",
+   "name": "Helicopter",
+   "group": "sound_fx",
+   "bank": 0,
+   "program": 125,
+   "color": "#E667AA",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_125.zip",
+    "size": 24998,
+    "sha256": "41172caaf869d72d3a73206fe31abbdc735f538e5b7a06eff704a3c37edeb3b2"
+   }
+  },
+  {
+   "id": "gm:1:125",
+   "name": "Car-Engine",
+   "group": "sound_fx",
+   "bank": 1,
+   "program": 125,
+   "color": "#E6499C",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/1_125.zip",
+    "size": 73710,
+    "sha256": "c0da58f5ba2b9b4bb6771e2198f44dbc16c7a1c43ae54b565b28faeb9005569c"
+   }
+  },
+  {
+   "id": "gm:2:125",
+   "name": "Car-Stop",
+   "group": "sound_fx",
+   "bank": 2,
+   "program": 125,
+   "color": "#E67EB5",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/2_125.zip",
+    "size": 40703,
+    "sha256": "b7d963138f8ed37eecfe2f37b6c76869d1387b2f3fb0b5b617620fb310d94ad7"
+   }
+  },
+  {
+   "id": "gm:3:125",
+   "name": "Car-Pass",
+   "group": "sound_fx",
+   "bank": 3,
+   "program": 125,
+   "color": "#E657A2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/3_125.zip",
+    "size": 80520,
+    "sha256": "fcc7cff64ef78f97caccd1d985600c95476d3901c1149e8e39be231e1d914597"
+   }
+  },
+  {
+   "id": "gm:4:125",
+   "name": "Car-Crash",
+   "group": "sound_fx",
+   "bank": 4,
+   "program": 125,
+   "color": "#C2578F",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/4_125.zip",
+    "size": 88119,
+    "sha256": "fb6f3c500c7c45895daf74038f2f05a95abaa2d3fbd0138969afc759580b6b66"
+   }
+  },
+  {
+   "id": "gm:5:125",
+   "name": "Siren",
+   "group": "sound_fx",
+   "bank": 5,
+   "program": 125,
+   "color": "#C23E83",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/5_125.zip",
+    "size": 11710,
+    "sha256": "a078c75f2c27ae7541db1da5f3ed2aa6ec3c3407150dde3c11b901e5c3db9dc9"
+   }
+  },
+  {
+   "id": "gm:6:125",
+   "name": "Train",
+   "group": "sound_fx",
+   "bank": 6,
+   "program": 125,
+   "color": "#C26B98",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/6_125.zip",
+    "size": 56190,
+    "sha256": "747e997cb8070fc00fe8e895bb3d7a7fa00376770e2c096dc38ae69e8e9279d0"
+   }
+  },
+  {
+   "id": "gm:7:125",
+   "name": "Jet Plane",
+   "group": "sound_fx",
+   "bank": 7,
+   "program": 125,
+   "color": "#C24A89",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/7_125.zip",
+    "size": 46946,
+    "sha256": "796b123f0f6dd639a7e2f4366db990148fcc1da4e38c1b0826e423412e05954a"
+   }
+  },
+  {
+   "id": "gm:8:125",
+   "name": "Starship",
+   "group": "sound_fx",
+   "bank": 8,
+   "program": 125,
+   "color": "#D15E9B",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/8_125.zip",
+    "size": 19874,
+    "sha256": "12335e7dab68951dff4d75cd3e51c885fd6a9ddb650d8560569b2a59fe669b79"
+   }
+  },
+  {
+   "id": "gm:9:125",
+   "name": "Burst Noise",
+   "group": "sound_fx",
+   "bank": 9,
+   "program": 125,
+   "color": "#D1438E",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/9_125.zip",
+    "size": 244340,
+    "sha256": "9d93c69de0f9825ddbfac8ab76b3902cfde058171f93494c73874bbbe20c4c8c"
+   }
+  },
+  {
+   "id": "gm:0:126",
+   "name": "Applause",
+   "group": "sound_fx",
+   "bank": 0,
+   "program": 126,
+   "color": "#D173A4",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_126.zip",
+    "size": 126279,
+    "sha256": "2fafc924e3eb638f0c48b285844acb64f506e9416b27591cefb34816b5fd54da"
+   }
+  },
+  {
+   "id": "gm:1:126",
+   "name": "Laughing",
+   "group": "sound_fx",
+   "bank": 1,
+   "program": 126,
+   "color": "#D14F94",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/1_126.zip",
+    "size": 44239,
+    "sha256": "f77b1e479cce956992b145107840cd3ff3d0a99722180c4f53b46de40c329d6d"
+   }
+  },
+  {
+   "id": "gm:2:126",
+   "name": "Scream",
+   "group": "sound_fx",
+   "bank": 2,
+   "program": 126,
+   "color": "#B25084",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/2_126.zip",
+    "size": 49137,
+    "sha256": "da4123c06aef9cca3c3f3f73c3018d687f832f22c8e3770a1c2f7bb054ddc6cd"
+   }
+  },
+  {
+   "id": "gm:3:126",
+   "name": "Punch",
+   "group": "sound_fx",
+   "bank": 3,
+   "program": 126,
+   "color": "#B23979",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/3_126.zip",
+    "size": 24736,
+    "sha256": "28c5b7f4079c0c4ce5d6dd08b063cd9ac0752c67370e56c9a40fdbb1945c55f0"
+   }
+  },
+  {
+   "id": "gm:4:126",
+   "name": "Heart Beat",
+   "group": "sound_fx",
+   "bank": 4,
+   "program": 126,
+   "color": "#B2628C",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/4_126.zip",
+    "size": 35949,
+    "sha256": "7c89ca6fbdac4df6962bb7f6655f39ec6620480b60952423abc3c38c251b590a"
+   }
+  },
+  {
+   "id": "gm:5:126",
+   "name": "Footsteps",
+   "group": "sound_fx",
+   "bank": 5,
+   "program": 126,
+   "color": "#B2447E",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/5_126.zip",
+    "size": 6565,
+    "sha256": "2c9a0ee96378ed70f86e99d6f693561e1a2f0f0052345f684792b8225deccee9"
+   }
+  },
+  {
+   "id": "gm:0:127",
+   "name": "Gun Shot",
+   "group": "sound_fx",
+   "bank": 0,
+   "program": 127,
+   "color": "#E667AA",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/0_127.zip",
+    "size": 19282,
+    "sha256": "94c49ec7fe44fce89352d93686def9844c4a391c3d739bb4ddc1ffd6149093c7"
+   }
+  },
+  {
+   "id": "gm:1:127",
+   "name": "Machine Gun",
+   "group": "sound_fx",
+   "bank": 1,
+   "program": 127,
+   "color": "#E6499C",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/1_127.zip",
+    "size": 19300,
+    "sha256": "8ac4253cd50bdd0d2b7f36a31c534647bb7887b23d9631286e5697e743eecacb"
+   }
+  },
+  {
+   "id": "gm:2:127",
+   "name": "Lasergun",
+   "group": "sound_fx",
+   "bank": 2,
+   "program": 127,
+   "color": "#E67EB5",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/2_127.zip",
+    "size": 232840,
+    "sha256": "6127ccacaeb891ab24a6cfc5e6d72693f355010afe3c666a0866ca3320b664a7"
+   }
+  },
+  {
+   "id": "gm:3:127",
+   "name": "Explosion",
+   "group": "sound_fx",
+   "bank": 3,
+   "program": 127,
+   "color": "#E657A2",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/3_127.zip",
+    "size": 18458,
+    "sha256": "b7b77729be2da9470d957a479210257d0a4c478ede5324f45a81f9028bef85d0"
+   }
+  },
+  {
+   "id": "gm:11:127",
+   "name": "Interference",
+   "group": "sound_fx",
+   "bank": 11,
+   "program": 127,
+   "color": "#C2578F",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/11_127.zip",
+    "size": 4014,
+    "sha256": "97d533f37372e93b8a66c5af0c157f18c721067b747bb7328a9bb4d733c5c09b"
+   }
+  },
+  {
+   "id": "gm:12:127",
+   "name": "Shooting Star",
+   "group": "sound_fx",
+   "bank": 12,
+   "program": 127,
+   "color": "#C23E83",
+   "core": false,
+   "premium": false,
+   "drum": false,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/12_127.zip",
+    "size": 232754,
+    "sha256": "777435c81112fae416a9159cb7f24682b79643750f9db224b7fecbc3fd16380d"
+   }
+  },
+  {
+   "id": "gm:128:0",
+   "name": "Standard 1",
+   "group": "drums",
+   "bank": 128,
+   "program": 0,
+   "color": "#D15E72",
+   "core": false,
+   "premium": false,
+   "drum": true,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/128_0.zip",
+    "size": 2231219,
+    "sha256": "9f1db0cac5eb4240e2f65937cec6023619b720ad6330150e073833fb10776e7b"
+   }
+  },
+  {
+   "id": "gm:128:1",
+   "name": "Standard 2",
+   "group": "drums",
+   "bank": 128,
+   "program": 1,
+   "color": "#D1435C",
+   "core": false,
+   "premium": false,
+   "drum": true,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/128_1.zip",
+    "size": 2130580,
+    "sha256": "f21159b6974957363bca8ecb751998f7bfb0c214cc3a056065a506a2ef312e53"
+   }
+  },
+  {
+   "id": "gm:128:2",
+   "name": "Standard 3",
+   "group": "drums",
+   "bank": 128,
+   "program": 2,
+   "color": "#D17383",
+   "core": false,
+   "premium": false,
+   "drum": true,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/128_2.zip",
+    "size": 2132967,
+    "sha256": "0ca1123579e8b83c5438a471835fec188f984b46bb1d24d370df159b7eb6655e"
+   }
+  },
+  {
+   "id": "gm:128:8",
+   "name": "Room",
+   "group": "drums",
+   "bank": 128,
+   "program": 8,
+   "color": "#D14F66",
+   "core": false,
+   "premium": false,
+   "drum": true,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/128_8.zip",
+    "size": 2241629,
+    "sha256": "065fbbcc2d691322747228577675193896b688bf620fc4d5aaa9445a92d51357"
+   }
+  },
+  {
+   "id": "gm:128:16",
+   "name": "Power",
+   "group": "drums",
+   "bank": 128,
+   "program": 16,
+   "color": "#B25061",
+   "core": false,
+   "premium": false,
+   "drum": true,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/128_16.zip",
+    "size": 2451560,
+    "sha256": "027ade25646758694ce3b642866def33dbc32400afd8671f7c58b82cda2c46d9"
+   }
+  },
+  {
+   "id": "gm:128:24",
+   "name": "Electronic",
+   "group": "drums",
+   "bank": 128,
+   "program": 24,
+   "color": "#B2394E",
+   "core": false,
+   "premium": false,
+   "drum": true,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/128_24.zip",
+    "size": 1968684,
+    "sha256": "5c9b38052626a1224ab34a99a83f4948d6b107d17da2e9eafd47675ccb4795b8"
+   }
+  },
+  {
+   "id": "gm:128:25",
+   "name": "808/909",
+   "group": "drums",
+   "bank": 128,
+   "program": 25,
+   "color": "#B26270",
+   "core": false,
+   "premium": false,
+   "drum": true,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/128_25.zip",
+    "size": 1413092,
+    "sha256": "5985ff6cd75036d710d222fc9e1c6dbb48db7039054df6f36c0f4d40c5c4dac1"
+   }
+  },
+  {
+   "id": "gm:128:26",
+   "name": "Dance",
+   "group": "drums",
+   "bank": 128,
+   "program": 26,
+   "color": "#B24457",
+   "core": false,
+   "premium": false,
+   "drum": true,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/128_26.zip",
+    "size": 1970078,
+    "sha256": "e1c5aeeafe69b4003e351fd713c5c87fb2ed8bbd9c93783a68bca34e187fcc80"
+   }
+  },
+  {
+   "id": "gm:128:32",
+   "name": "Jazz",
+   "group": "drums",
+   "bank": 128,
+   "program": 32,
+   "color": "#E6677D",
+   "core": false,
+   "premium": false,
+   "drum": true,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/128_32.zip",
+    "size": 2130357,
+    "sha256": "46a21e325e5abac4d8676a12dad605293d541d27d20afb2d2105ac8a8b5550b1"
+   }
+  },
+  {
+   "id": "gm:128:40",
+   "name": "Brush",
+   "group": "drums",
+   "bank": 128,
+   "program": 40,
+   "color": "#E64964",
+   "core": false,
+   "premium": false,
+   "drum": true,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/128_40.zip",
+    "size": 2140453,
+    "sha256": "008172553d3c2d4ac5ac6a6144788ca8f7ed6f1d305b75f5f2589c305c9ab21c"
+   }
+  },
+  {
+   "id": "gm:128:48",
+   "name": "Orchestral",
+   "group": "drums",
+   "bank": 128,
+   "program": 48,
+   "color": "#E67E90",
+   "core": false,
+   "premium": false,
+   "drum": true,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/128_48.zip",
+    "size": 1872245,
+    "sha256": "9f90e34e39ba8e11e7dea5cbfe6e7430ab664a386197378dbf04aa7af325b188"
+   }
+  },
+  {
+   "id": "gm:128:56",
+   "name": "SFX",
+   "group": "drums",
+   "bank": 128,
+   "program": 56,
+   "color": "#E65770",
+   "core": false,
+   "premium": false,
+   "drum": true,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/128_56.zip",
+    "size": 1857527,
+    "sha256": "a519a8310713619e5943f90428dc88ef74154108afd20d4fe035e86bd2a9a599"
+   }
+  },
+  {
+   "id": "gm:128:127",
+   "name": "CM-64/32L",
+   "group": "drums",
+   "bank": 128,
+   "program": 127,
+   "color": "#C2576A",
+   "core": false,
+   "premium": false,
+   "drum": true,
+   "archive": {
+    "url": "https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@0f07982857bc1d7a63688c36d1e68be5e5a43049/128_127.zip",
+    "size": 3605753,
+    "sha256": "77d7854d30fcfefd6cbc4021760c63c9e07f6327c7b4744a513af4bacf948696"
+   }
+  }
+ ],
+ "legacyMap": {
+  "0": "gm:0:4",
+  "1": "gm:0:14",
+  "2": "gm:0:73",
+  "3": "gm:0:24",
+  "4": "gm:0:33",
+  "5": "gm:0:12",
+  "6": "gm:0:80",
+  "7": "gm:0:48",
+  "8": "gm:0:10",
+  "9": "gm:0:46",
+  "10": "gm:0:65",
+  "11": "gm:0:38",
+  "12": "gm:0:89"
+ }
+}

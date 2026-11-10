@@ -109,3 +109,23 @@ Sau khi push, đổi Remote Config `beat_catalog_url` sang `…@1.1.0/catalog.js
 
 Mọi âm thanh do `tools/beatpack-gen` tổng hợp bằng numpy, không dùng sample bên thứ ba (nguồn gốc + sha256 từng
 file: `tools/beatpack-gen/manifest.json`).
+
+## Nhạc cụ SoundFont (màn Draw)
+
+274 nhạc cụ / 17 nhóm, tách từ **GeneralUser GS v2.0.3** (S. Christian Collins, License v2.0 — cho dùng thương mại và
+đóng gói lại, xem `instruments/GeneralUser-GS-LICENSE.txt`). Mỗi nhạc cụ là `<bank>_<program>.zip` chứa đúng một
+`<bank>_<program>.sf2`. 14 âm core đóng sẵn trong app, không có archive.
+
+- Catalog: `instruments/catalog.json` trên `main`, tag `instruments-<version>`; app đọc từ Remote Config
+  `instrument_catalog_url` = `https://cdn.jsdelivr.net/gh/anhht-varmeta/Android-DrawMusic-Data@instruments-1.0.0/instruments/catalog.json`.
+- Archive: ~125 MB nên chia thành nhiều orphan commit ≤ 45 MB, tag `instruments-<version>-part<N>`; `archive.url` tuyệt
+  đối `…@<sha>/<file>.zip`.
+- Schema catalog: `docs/specs/soundfont-instruments/api-contract.md` của app.
+
+Phát hành (sinh data bằng pipeline của app `088-AND-Draw-Music/tools/soundfont/build_catalog.py`):
+
+```bash
+python3 tools/publish_instruments.py <app>/tools/soundfont/out/instruments 1.0.0 --dry-run
+python3 tools/publish_instruments.py <app>/tools/soundfont/out/instruments 1.0.0
+git push origin main --tags
+```
